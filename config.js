@@ -1,6 +1,17 @@
-{
-  "source": ["assets/tokens/**/*.json"],
-  "platforms": {
+// config.js
+module.exports = {
+  source: [`assets/tokens/**/*.json`],
+  platforms: {
+    "css": {
+      "transformGroup": "css",
+      "buildPath": "build/css/",
+      "files": [
+        {
+          "destination": "_variables.css",
+          "format": "css/variables"
+        }
+      ]
+    },
     "scss": {
       "transformGroup": "scss",
       "buildPath": "build/scss/",

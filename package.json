@@ -4,7 +4,7 @@
   "description": "Convert JSON to multi-platform tokens and package for Maven, NPM, and SPM.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "style-dictionary build"
+    "build": "rm -r dirName ; style-dictionary build"
   },
   "repository": {
     "type": "git",
