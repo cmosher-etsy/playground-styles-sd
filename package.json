@@ -1,0 +1,21 @@
+{
+  "name": "playground-styles-sd",
+  "version": "0.0.0",
+  "description": "Convert JSON to multi-platform tokens and package for Maven, NPM, and SPM.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmosher-etsy/playground-styles-sd.git"
+  },
+  "author": "cmosher@etsy.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmosher-etsy/playground-styles-sd/issues"
+  },
+  "homepage": "https://github.com/cmosher-etsy/playground-styles-sd#readme",
+  "devDependencies": {
+    "style-dictionary": "^3.7.2"
+  }
+}
