@@ -2,11 +2,11 @@
   "color": {
     "palette": {
       "greyscale": {
-        "100": {
+        "000": {
           "value": "#FFFFFF",
           "darkValue": "#FFFFFF"
         },
-        "500": {
+        "400": {
           "value": "#EAEAEA",
           "darkValue": "#EAEAEA"
         },

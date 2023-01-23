@@ -2,27 +2,27 @@
   "color": {
     "surface": {
       "bg": {
-        "value": "{color.palette.greyscale.100.value}",
+        "value": "{color.palette.greyscale.000.value}",
         "darkValue": "{color.palette.greyscale.900.darkValue}"
       },
       "fg": {
         "value": "{color.palette.greyscale.900.value}",
-        "darkValue": "{color.palette.greyscale.100.darkValue}"
+        "darkValue": "{color.palette.greyscale.000.darkValue}"
       },
       "panel": {
         "bg": {
-          "value": "{color.palette.greyscale.100.value}",
+          "value": "{color.palette.greyscale.000.value}",
           "darkValue": "{color.palette.greyscale.900.darkValue}"
         },
         "fg": {
           "value": "{color.palette.greyscale.900.value}",
-          "darkValue": "{color.palette.greyscale.100.darkValue}"
+          "darkValue": "{color.palette.greyscale.000.darkValue}"
         }
       },
       "critical": {
         "fg": {
-          "value": "{color.palette.greyscale.100.value}",
-          "darkValue": "{color.palette.greyscale.100.darkValue}"
+          "value": "{color.palette.greyscale.000.value}",
+          "darkValue": "{color.palette.greyscale.000.darkValue}"
         },
         "bg": {
           "value": "{color.palette.brick.default.value}",
@@ -31,8 +31,8 @@
       },
       "success": {
         "fg": {
-          "value": "{color.palette.greyscale.100.value}",
-          "darkValue": "{color.palette.greyscale.100.darkValue}"
+          "value": "{color.palette.greyscale.000.value}",
+          "darkValue": "{color.palette.greyscale.000.darkValue}"
         },
         "bg": {
           "value": "{color.palette.denim.default.value}",
