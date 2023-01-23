@@ -1,0 +1,74 @@
+{
+  "color": {
+    "palette": {
+      "greyscale": {
+        "100": {
+          "value": "#FFFFFF",
+          "darkValue": "#FFFFFF"
+        },
+        "500": {
+          "value": "#EAEAEA",
+          "darkValue": "#EAEAEA"
+        },
+        "900": {
+          "value": "#222222",
+          "darkValue": "#222222"
+        }
+      },
+      "denim": {
+        "tint": {
+          "value": "#D7E6F5",
+          "darkValue": "#b5c6d8"
+        },
+        "light": {
+          "value": "#4D6BC6",
+          "darkValue": "#829cee"
+        },
+        "default": {
+          "value": "#2F466C",
+          "darkValue": "#426194"
+        },
+        "dark": {
+          "value": "#232347",
+          "darkValue": "#232347"
+        }
+      },
+      "brick": {
+        "tint": {
+          "value": "#FDDCD8",
+          "darkValue": "#ca9e99"
+        },
+        "light": {
+          "value": "#FD9184",
+          "darkValue": "#f27878"
+        },
+        "default": {
+          "value": "#A61A2E",
+          "darkValue": "#A61A2E"
+        },
+        "dark": {
+          "value": "#540D17",
+          "darkValue": "#731f2b"
+        }
+      },
+      "beeswax": {
+        "tint": {
+          "value": "#FDEBD2",
+          "darkValue": "#e2d3bd"
+        },
+        "light": {
+          "value": "#FDD95C",
+          "darkValue": "#FDD95C"
+        },
+        "default": {
+          "value": "#FAA129",
+          "darkValue": "#FAA129"
+        },
+        "dark": {
+          "value": "#A66800",
+          "darkValue": "#db8b00"
+        }
+      }
+    }
+  }
+}
