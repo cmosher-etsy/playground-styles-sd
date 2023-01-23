@@ -4,7 +4,7 @@ module.exports = {
   platforms: {
     "css": {
       "transformGroup": "css",
-      "buildPath": "build/css/",
+      "buildPath": "dist/css/",
       "files": [
         {
           "destination": "_variables.css",
@@ -14,7 +14,7 @@ module.exports = {
     },
     "scss": {
       "transformGroup": "scss",
-      "buildPath": "build/scss/",
+      "buildPath": "dist/scss/",
       "files": [
         {
           "destination": "_variables.scss",
@@ -24,7 +24,7 @@ module.exports = {
     },
     "android": {
       "transformGroup": "android",
-      "buildPath": "build/android/",
+      "buildPath": "dist/android/",
       "files": [
         {
           "destination": "font_dimens.xml",
@@ -38,7 +38,7 @@ module.exports = {
     },
     "compose": {
       "transformGroup": "compose",
-      "buildPath": "build/compose/",
+      "buildPath": "dist/compose/",
       "files": [
         {
           "destination": "StyleDictionaryColor.kt",
@@ -67,7 +67,7 @@ module.exports = {
     },
     "ios": {
       "transformGroup": "ios",
-      "buildPath": "build/ios/",
+      "buildPath": "dist/ios/",
       "files": [
         {
           "destination": "StyleDictionaryColor.h",
@@ -117,7 +117,7 @@ module.exports = {
     },
     "ios-swift": {
       "transformGroup": "ios-swift",
-      "buildPath": "build/ios-swift/",
+      "buildPath": "dist/ios-swift/",
       "files": [
         {
           "destination": "StyleDictionary+Class.swift",
@@ -146,7 +146,7 @@ module.exports = {
     },
     "ios-swift-separate-enums": {
       "transformGroup": "ios-swift-separate",
-      "buildPath": "build/ios-swift/",
+      "buildPath": "dist/ios-swift/",
       "files": [
         {
           "destination": "StyleDictionaryColor.swift",
