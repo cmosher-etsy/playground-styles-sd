@@ -2,91 +2,101 @@
   "color": {
     "surface": {
       "bg": {
-        "value": "{color.base.greyscale.000.value}",
-        "darkValue": "{color.base.greyscale.900.darkValue}"
+        "value": "{color.system.greyscale.000.value}",
+        "darkValue": "{color.system.greyscale.900.darkValue}"
       },
       "fg": {
-        "value": "{color.base.greyscale.900.value}",
-        "darkValue": "{color.base.greyscale.000.darkValue}"
+        "value": "{color.system.greyscale.900.value}",
+        "darkValue": "{color.system.greyscale.000.darkValue}"
       },
       "panel": {
         "bg": {
-          "value": "{color.base.greyscale.000.value}",
-          "darkValue": "{color.base.greyscale.900.darkValue}"
+          "value": "{color.system.greyscale.000.value}",
+          "darkValue": "{color.system.greyscale.900.darkValue}"
         },
         "fg": {
-          "value": "{color.base.greyscale.900.value}",
-          "darkValue": "{color.base.greyscale.000.darkValue}"
+          "value": "{color.system.greyscale.900.value}",
+          "darkValue": "{color.system.greyscale.000.darkValue}"
         }
       },
       "critical": {
         "fg": {
-          "value": "{color.base.greyscale.000.value}",
-          "darkValue": "{color.base.greyscale.000.darkValue}"
+          "value": "{color.system.greyscale.000.value}",
+          "darkValue": "{color.system.greyscale.000.darkValue}"
         },
         "bg": {
-          "value": "{color.base.brick.base.value}",
-          "darkValue": "{color.base.brick.base.darkValue}"
+          "value": "{color.system.brick.value}",
+          "darkValue": "{color.system.brick.darkValue}"
         }
       },
       "success": {
         "fg": {
-          "value": "{color.base.greyscale.000.value}",
-          "darkValue": "{color.base.greyscale.000.darkValue}"
+          "value": "{color.system.greyscale.000.value}",
+          "darkValue": "{color.system.greyscale.000.darkValue}"
         },
         "bg": {
-          "value": "{color.base.denim.base.value}",
-          "darkValue": "{color.base.denim.base.darkValue}"
+          "value": "{color.system.denim.value}",
+          "darkValue": "{color.system.denim.darkValue}"
         }
       },
       "warning": {
         "fg": {
-          "value": "{color.base.greyscale.900.value}",
-          "darkValue": "{color.base.greyscale.900.darkValue}"
+          "value": "{color.system.greyscale.900.value}",
+          "darkValue": "{color.system.greyscale.900.darkValue}"
         },
         "bg": {
-          "value": "{color.base.beeswax.tint.value}",
-          "darkValue": "{color.base.beeswax.tint.darkValue}"
+          "value": "{color.system.beeswax.tint.value}",
+          "darkValue": "{color.system.beeswax.tint.darkValue}"
         }
       },
       "informational": {
         "fg": {
-          "value": "{color.base.greyscale.900.value}",
-          "darkValue": "{color.base.greyscale.900.darkValue}"
+          "value": "{color.system.greyscale.900.value}",
+          "darkValue": "{color.system.greyscale.900.darkValue}"
         },
         "bg": {
-          "value": "{color.base.denim.tint.value}",
-          "darkValue": "{color.base.denim.tint.darkValue}"
+          "value": "{color.system.denim.tint.value}",
+          "darkValue": "{color.system.denim.tint.darkValue}"
+        }
+      },
+      "input": {
+        "fg": {
+          "value": "{color.system.greyscale.900.value}",
+          "darkValue": "{color.system.greyscale.000.darkValue}"
+        },
+        "bg": {
+          "value": "{color.system.greyscale.000.value}",
+          "darkValue": "{color.system.greyscale.900.darkValue}"
         }
       },
       "action": {
         "primary": {
           "fg": {
-            "value": "{color.base.greyscale.000.value}",
-            "darkValue": "{color.base.greyscale.900.darkValue}"
+            "value": "{color.system.greyscale.000.value}",
+            "darkValue": "{color.system.greyscale.900.darkValue}"
           },
           "bg": {
-            "value": "{color.base.greyscale.900.value}",
-            "darkValue": "{color.base.greyscale.000.darkValue}"
+            "value": "{color.system.greyscale.900.value}",
+            "darkValue": "{color.system.greyscale.000.darkValue}"
           },
           "hover": {
             "fg": {
-              "value": "{color.base.greyscale.000.value}",
-              "darkValue": "{color.base.greyscale.900.darkValue}"
+              "value": "{color.system.greyscale.000.value}",
+              "darkValue": "{color.system.greyscale.900.darkValue}"
             },
             "bg": {
-              "value": "{color.base.greyscale.800.value}",
-              "darkValue": "{color.base.greyscale.100.darkValue}"
+              "value": "{color.system.greyscale.800.value}",
+              "darkValue": "{color.system.greyscale.100.darkValue}"
             }
           },
           "disabled": {
             "fg": {
-              "value": "{color.base.greyscale.000.value}",
-              "darkValue": "{color.base.greyscale.000.darkValue}"
+              "value": "{color.system.greyscale.000.value}",
+              "darkValue": "{color.system.greyscale.000.darkValue}"
             },
             "bg": {
-              "value": "{color.base.greyscale.400.value}",
-              "darkValue": "{color.base.greyscale.400.darkValue}"
+              "value": "{color.system.greyscale.400.value}",
+              "darkValue": "{color.system.greyscale.400.darkValue}"
             }
           }
         }

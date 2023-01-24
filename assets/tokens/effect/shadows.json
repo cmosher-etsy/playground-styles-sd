@@ -2,10 +2,10 @@
   "effect": {
     "shadow": {
       "100": {
-        "x-offset": {
+        "x": {
           "value": "0px"
         },
-        "y-offset": {
+        "y": {
           "value": "4px"
         },
         "border-radius": {
@@ -15,14 +15,14 @@
           "value": "0px"
         },
         "color": {
-          "value": "rgba({color.base.greyscale.900.rgb}, 0.15)"
+          "value": "{color.system.transparent.black.200.value}"
         }
       },
       "200": {
-        "x-offset": {
+        "x": {
           "value": "0px"
         },
-        "y-offset": {
+        "y": {
           "value": "6px"
         },
         "border-radius": {
@@ -35,7 +35,7 @@
           "value": "0.325"
         },
         "color": {
-          "value": "rgba({color.base.greyscale.900.rgb}, 0.325)"
+          "value": "{color.system.transparent.black.300.value}"
         }
       }
     }

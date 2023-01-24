@@ -1,34 +1,44 @@
 {
   "color": {
-    "base": {
+    "system": {
       "greyscale": {
         "000": {
-          "rgb": "0, 0, 0",
           "value": "#FFFFFF",
           "darkValue": "#FFFFFF"
         },
         "100": {
-          "rgb": "249, 249, 249",
           "value": "#f9f9f9",
           "darkValue": "#f9f9f9"
         },
         "400": {
-          "rgb": "234, 234, 234",
           "value": "#EAEAEA",
           "darkValue": "#EAEAEA"
         },
         "800": {
-          "rgb": "47, 47, 47",
           "value": "#2f2f2f",
           "darkValue": "#2f2f2f"
         },
         "900": {
-          "rgb": "34, 34, 34",
           "value": "#222222",
           "darkValue": "#222222"
         }
       },
+      "transparent": {
+        "white": {},
+        "black": {
+          "200": {
+            "value": "rgba(34, 34, 34, .15)",
+            "darkValue": "rgba(34, 34, 34, .15)"
+          },
+          "300": {
+            "value": "rgba(34, 34, 34, .325)",
+            "darkValue": "rgba(34, 34, 34, .325)"
+          }
+        }
+      },
       "denim": {
+        "value": "#2F466C",
+        "darkValue": "#426194",
         "tint": {
           "value": "#D7E6F5",
           "darkValue": "#b5c6d8"
@@ -37,16 +47,14 @@
           "value": "#4D6BC6",
           "darkValue": "#829cee"
         },
-        "base": {
-          "value": "#2F466C",
-          "darkValue": "#426194"
-        },
         "dark": {
           "value": "#232347",
           "darkValue": "#232347"
         }
       },
       "brick": {
+        "value": "#A61A2E",
+        "darkValue": "#A61A2E",
         "tint": {
           "value": "#FDDCD8",
           "darkValue": "#ca9e99"
@@ -54,10 +62,6 @@
         "light": {
           "value": "#FD9184",
           "darkValue": "#f27878"
-        },
-        "base": {
-          "value": "#A61A2E",
-          "darkValue": "#A61A2E"
         },
         "dark": {
           "value": "#540D17",

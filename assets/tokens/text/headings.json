@@ -1,0 +1,21 @@
+{
+  "text": {
+    "heading": {
+      "family": {
+        "value": "{text.system.family.guardian}"
+      },
+      "weight": {
+        "value": "{text.system.weight.300}"
+      },
+      "size": {
+        "value": "{text.system.size.450}"
+      },
+      "letter-spacing": {
+        "value": "{text.system.letter-spacing.800}"
+      },
+      "line-height": {
+        "value": "{text.system.line-height.450}"
+      }
+    }
+  }
+}

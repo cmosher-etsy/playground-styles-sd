@@ -1,0 +1,27 @@
+{
+  "shape": {
+    "system": {
+      "stroke": {
+        "weight": {
+          "100": {
+            "value": "1px"
+          },
+          "200": {
+            "value": "2px"
+          }
+        },
+        "corner-radius": {
+          "100": {
+            "value": "{space.system.100.value}"
+          },
+          "200": {
+            "value": "{space.system.200.value}"
+          },
+          "300": {
+            "value": "{space.system.300.value}"
+          }
+        }
+      }
+    }
+  }
+}
