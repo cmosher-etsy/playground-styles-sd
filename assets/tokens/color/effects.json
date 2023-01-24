@@ -1,0 +1,16 @@
+{
+  "color": {
+    "effect": {
+      "focus": {
+        "outline": {
+          "value": "{color.base.denim.light.value}",
+          "darkValue": "{color.base.greyscale.000.darkValue}"
+        },
+        "buffer": {
+          "value": "{color.base.greyscale.000.value}",
+          "darkValue": "{color.base.denim.light.darkValue}"
+        }
+      }
+    }
+  }
+}

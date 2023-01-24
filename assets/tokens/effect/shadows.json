@@ -1,0 +1,46 @@
+{
+  "effect": {
+    "shadow": {
+      "100": {
+        "x-offset": {
+          "value": "0px"
+        },
+        "y-offset": {
+          "value": "4px"
+        },
+        "border-radius": {
+          "value": "20px"
+        },
+        "spread": {
+          "value": "0px"
+        },
+        "opacity": {
+          "value": "0.15"
+        },
+        "color": {
+          "value": "{color.base.greyscale.900.value}"
+        }
+      },
+      "200": {
+        "x-offset": {
+          "value": "0px"
+        },
+        "y-offset": {
+          "value": "6px"
+        },
+        "border-radius": {
+          "value": "36px"
+        },
+        "spread": {
+          "value": "0px"
+        },
+        "opacity": {
+          "value": "0.325"
+        },
+        "color": {
+          "value": "{color.base.greyscale.900.value}"
+        }
+      }
+    }
+  }
+}

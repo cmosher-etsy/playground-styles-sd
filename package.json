@@ -24,6 +24,6 @@
   },
   "files": [
     "index.js",
-    "build/scss/_variables.scss"
+    "dist/scss/_variables.scss"
   ]
 }

@@ -2,61 +2,93 @@
   "color": {
     "surface": {
       "bg": {
-        "value": "{color.palette.greyscale.000.value}",
-        "darkValue": "{color.palette.greyscale.900.darkValue}"
+        "value": "{color.base.greyscale.000.value}",
+        "darkValue": "{color.base.greyscale.900.darkValue}"
       },
       "fg": {
-        "value": "{color.palette.greyscale.900.value}",
-        "darkValue": "{color.palette.greyscale.000.darkValue}"
+        "value": "{color.base.greyscale.900.value}",
+        "darkValue": "{color.base.greyscale.000.darkValue}"
       },
       "panel": {
         "bg": {
-          "value": "{color.palette.greyscale.000.value}",
-          "darkValue": "{color.palette.greyscale.900.darkValue}"
+          "value": "{color.base.greyscale.000.value}",
+          "darkValue": "{color.base.greyscale.900.darkValue}"
         },
         "fg": {
-          "value": "{color.palette.greyscale.900.value}",
-          "darkValue": "{color.palette.greyscale.000.darkValue}"
+          "value": "{color.base.greyscale.900.value}",
+          "darkValue": "{color.base.greyscale.000.darkValue}"
         }
       },
       "critical": {
         "fg": {
-          "value": "{color.palette.greyscale.000.value}",
-          "darkValue": "{color.palette.greyscale.000.darkValue}"
+          "value": "{color.base.greyscale.000.value}",
+          "darkValue": "{color.base.greyscale.000.darkValue}"
         },
         "bg": {
-          "value": "{color.palette.brick.default.value}",
-          "darkValue": "{color.palette.brick.default.darkValue}"
+          "value": "{color.base.brick.base.value}",
+          "darkValue": "{color.base.brick.base.darkValue}"
         }
       },
       "success": {
         "fg": {
-          "value": "{color.palette.greyscale.000.value}",
-          "darkValue": "{color.palette.greyscale.000.darkValue}"
+          "value": "{color.base.greyscale.000.value}",
+          "darkValue": "{color.base.greyscale.000.darkValue}"
         },
         "bg": {
-          "value": "{color.palette.denim.default.value}",
-          "darkValue": "{color.palette.denim.default.darkValue}"
+          "value": "{color.base.denim.base.value}",
+          "darkValue": "{color.base.denim.base.darkValue}"
         }
       },
       "warning": {
         "fg": {
-          "value": "{color.palette.greyscale.900.value}",
-          "darkValue": "{color.palette.greyscale.900.darkValue}"
+          "value": "{color.base.greyscale.900.value}",
+          "darkValue": "{color.base.greyscale.900.darkValue}"
         },
         "bg": {
-          "value": "{color.palette.beeswax.tint.value}",
-          "darkValue": "{color.palette.beeswax.tint.darkValue}"
+          "value": "{color.base.beeswax.tint.value}",
+          "darkValue": "{color.base.beeswax.tint.darkValue}"
         }
       },
       "informational": {
         "fg": {
-          "value": "{color.palette.greyscale.900.value}",
-          "darkValue": "{color.palette.greyscale.900.darkValue}"
+          "value": "{color.base.greyscale.900.value}",
+          "darkValue": "{color.base.greyscale.900.darkValue}"
         },
         "bg": {
-          "value": "{color.palette.denim.tint.value}",
-          "darkValue": "{color.palette.denim.tint.darkValue}"
+          "value": "{color.base.denim.tint.value}",
+          "darkValue": "{color.base.denim.tint.darkValue}"
+        }
+      },
+      "action": {
+        "primary": {
+          "fg": {
+            "value": "{color.base.greyscale.000.value}",
+            "darkValue": "{color.base.greyscale.900.darkValue}"
+          },
+          "bg": {
+            "value": "{color.base.greyscale.900.value}",
+            "darkValue": "{color.base.greyscale.000.darkValue}"
+          },
+          "hover": {
+            "fg": {
+              "value": "{color.base.greyscale.000.value}",
+              "darkValue": "{color.base.greyscale.900.darkValue}"
+            },
+            "bg": {
+              "value": "{color.base.greyscale.800.value}",
+              "darkValue": "{color.base.greyscale.100.darkValue}"
+            }
+          },
+          "disabled": {
+            "fg": {
+              "value": "{color.base.greyscale.900.value}",
+              "darkValue": "{color.base.greyscale.900.darkValue}"
+            },
+            "bg": {
+              "value": "{color.base.greyscale.400.value}",
+              "darkValue": "{color.base.greyscale.400.darkValue}"
+            }
+          }
         }
       }
     }

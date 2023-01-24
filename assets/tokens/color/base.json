@@ -6,9 +6,17 @@
           "value": "#FFFFFF",
           "darkValue": "#FFFFFF"
         },
+        "100": {
+          "value": "#f9f9f9",
+          "darkValue": "#f9f9f9"
+        },
         "400": {
           "value": "#EAEAEA",
           "darkValue": "#EAEAEA"
+        },
+        "800": {
+          "value": "#2f2f2f",
+          "darkValue": "#2f2f2f"
         },
         "900": {
           "value": "#222222",
@@ -24,7 +32,7 @@
           "value": "#4D6BC6",
           "darkValue": "#829cee"
         },
-        "default": {
+        "base": {
           "value": "#2F466C",
           "darkValue": "#426194"
         },
@@ -42,7 +50,7 @@
           "value": "#FD9184",
           "darkValue": "#f27878"
         },
-        "default": {
+        "base": {
           "value": "#A61A2E",
           "darkValue": "#A61A2E"
         },
@@ -60,7 +68,7 @@
           "value": "#FDD95C",
           "darkValue": "#FDD95C"
         },
-        "default": {
+        "base": {
           "value": "#FAA129",
           "darkValue": "#FAA129"
         },
