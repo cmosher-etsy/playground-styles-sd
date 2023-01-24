@@ -11,14 +11,17 @@
           }
         },
         "corner-radius": {
+          "050": {
+            "value": "3px"
+          },
           "100": {
-            "value": "{space.system.100.value}"
+            "value": "6px"
           },
           "200": {
-            "value": "{space.system.200.value}"
+            "value": "12px"
           },
           "300": {
-            "value": "{space.system.300.value}"
+            "value": "18px"
           }
         }
       }

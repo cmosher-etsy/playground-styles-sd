@@ -1,0 +1,27 @@
+{
+  "shape": {
+    "button": {
+      "min-height": {
+        "base": {
+          "value": "48px"
+        },
+        "smaller": {
+          "value": "36px"
+        }
+      },
+      "border": {
+        "width": {
+          "value": "{shape.system.stroke.weight.200.value}"
+        },
+        "radius": {
+          "base": {
+            "value": "24px"
+          },
+          "smaller": {
+            "value": "18px"
+          }
+        }
+      }
+    }
+  }
+}

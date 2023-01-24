@@ -24,7 +24,20 @@
         }
       },
       "transparent": {
-        "white": {},
+        "white": {
+          "200": {
+            "value": "rgba(0, 0, 0, .15)",
+            "darkValue": "rgba(0, 0, 0, .15)"
+          },
+          "300": {
+            "value": "rgba(0, 0, 0, .325)",
+            "darkValue": "rgba(0, 0, 0, .325)"
+          },
+          "500": {
+            "value": "rgba(0, 0, 0, .325)",
+            "darkValue": "rgba(0, 0, 0, .5)"
+          }
+        },
         "black": {
           "200": {
             "value": "rgba(34, 34, 34, .15)",
@@ -33,12 +46,18 @@
           "300": {
             "value": "rgba(34, 34, 34, .325)",
             "darkValue": "rgba(34, 34, 34, .325)"
+          },
+          "500": {
+            "value": "rgba(34, 34, 34, .325)",
+            "darkValue": "rgba(34, 34, 34, .5)"
           }
         }
       },
       "denim": {
-        "value": "#2F466C",
-        "darkValue": "#426194",
+        "base": {
+          "value": "#2F466C",
+          "darkValue": "#426194"
+        },
         "tint": {
           "value": "#D7E6F5",
           "darkValue": "#b5c6d8"
@@ -53,8 +72,10 @@
         }
       },
       "brick": {
-        "value": "#A61A2E",
-        "darkValue": "#A61A2E",
+        "base": {
+          "value": "#A61A2E",
+          "darkValue": "#A61A2E"
+        },
         "tint": {
           "value": "#FDDCD8",
           "darkValue": "#ca9e99"
@@ -69,6 +90,10 @@
         }
       },
       "beeswax": {
+        "base": {
+          "value": "#FAA129",
+          "darkValue": "#FAA129"
+        },
         "tint": {
           "value": "#FDEBD2",
           "darkValue": "#e2d3bd"
@@ -76,10 +101,6 @@
         "light": {
           "value": "#FDD95C",
           "darkValue": "#FDD95C"
-        },
-        "base": {
-          "value": "#FAA129",
-          "darkValue": "#FAA129"
         },
         "dark": {
           "value": "#A66800",

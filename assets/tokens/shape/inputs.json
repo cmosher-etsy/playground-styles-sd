@@ -1,0 +1,19 @@
+{
+  "shape": {
+    "input": {
+      "border": {
+        "width": {
+          "value": "{shape.system.stroke.weight.100.value}"
+        },
+        "radius": {
+          "base": {
+            "value": "{shape.system.stroke.corner-radius.100.value}"
+          },
+          "smaller": {
+            "value": "{shape.system.stroke.corner-radius.050.value}"
+          }
+        }
+      }
+    }
+  }
+}
