@@ -1,118 +1,120 @@
 {
   "text": {
-    "family": {
-      "guardian": {
-        "value": "\"Comic Sans MS\", \"Comic Sans\", cursive"
+    "base": {
+      "family": {
+        "guardian": {
+          "value": "\"Comic Sans MS\", \"Comic Sans\", cursive"
+        },
+        "graphik": {
+          "value": "Arial, Helvetica, sans-serif"
+        }
       },
-      "graphik": {
-        "value": "Arial, Helvetica, sans-serif"
-      }
-    },
-    "weight": {
-      "300": {
-        "value": "300"
+      "weight": {
+        "300": {
+          "value": "300"
+        },
+        "400": {
+          "value": "400"
+        },
+        "500": {
+          "value": "500"
+        },
+        "700": {
+          "value": "700"
+        }
       },
-      "400": {
-        "value": "400"
+      "size": {
+        "100": {
+          "value": "12px"
+        },
+        "150": {
+          "value": "13px"
+        },
+        "200": {
+          "value": "16px"
+        },
+        "250": {
+          "value": "20px"
+        },
+        "300": {
+          "value": "24px"
+        },
+        "350": {
+          "value": "26px"
+        },
+        "400": {
+          "value": "28px"
+        },
+        "450": {
+          "value": "32px"
+        },
+        "500": {
+          "value": "36px"
+        },
+        "600": {
+          "value": "44px"
+        },
+        "700": {
+          "value": "52px"
+        },
+        "900": {
+          "value": "72px"
+        }
       },
-      "500": {
-        "value": "500"
+      "line-height": {
+        "100": {
+          "value": "14px"
+        },
+        "150": {
+          "value": "16px"
+        },
+        "200": {
+          "value": "18px"
+        },
+        "250": {
+          "value": "20px"
+        },
+        "300": {
+          "value": "24px"
+        },
+        "350": {
+          "value": "28px"
+        },
+        "400": {
+          "value": "32px"
+        },
+        "450": {
+          "value": "36px"
+        },
+        "500": {
+          "value": "42px"
+        },
+        "550": {
+          "value": "48px"
+        },
+        "600": {
+          "value": "52px"
+        },
+        "700": {
+          "value": "56px"
+        },
+        "900": {
+          "value": "72px"
+        }
       },
-      "700": {
-        "value": "700"
-      }
-    },
-    "size": {
-      "100": {
-        "value": "12px"
-      },
-      "150": {
-        "value": "13px"
-      },
-      "200": {
-        "value": "16px"
-      },
-      "250": {
-        "value": "20px"
-      },
-      "300": {
-        "value": "24px"
-      },
-      "350": {
-        "value": "26px"
-      },
-      "400": {
-        "value": "28px"
-      },
-      "450": {
-        "value": "32px"
-      },
-      "500": {
-        "value": "36px"
-      },
-      "600": {
-        "value": "44px"
-      },
-      "700": {
-        "value": "52px"
-      },
-      "900": {
-        "value": "72px"
-      }
-    },
-    "line-height": {
-      "100": {
-        "value": "14px"
-      },
-      "150": {
-        "value": "16px"
-      },
-      "200": {
-        "value": "18px"
-      },
-      "250": {
-        "value": "20px"
-      },
-      "300": {
-        "value": "24px"
-      },
-      "350": {
-        "value": "28px"
-      },
-      "400": {
-        "value": "32px"
-      },
-      "450": {
-        "value": "36px"
-      },
-      "500": {
-        "value": "42px"
-      },
-      "550": {
-        "value": "48px"
-      },
-      "600": {
-        "value": "52px"
-      },
-      "700": {
-        "value": "56px"
-      },
-      "900": {
-        "value": "72px"
-      }
-    },
-    "letter-spacing": {
-      "000": {
-        "value": "0px"
-      },
-      "200": {
-        "value": "0.1px"
-      },
-      "500": {
-        "value": "0.35px"
-      },
-      "800": {
-        "value": "0.5px"
+      "letter-spacing": {
+        "000": {
+          "value": "0px"
+        },
+        "200": {
+          "value": "0.1px"
+        },
+        "500": {
+          "value": "0.35px"
+        },
+        "800": {
+          "value": "0.5px"
+        }
       }
     }
   }

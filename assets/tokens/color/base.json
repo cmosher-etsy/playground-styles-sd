@@ -1,6 +1,6 @@
 {
   "color": {
-    "palette": {
+    "base": {
       "greyscale": {
         "000": {
           "value": "#FFFFFF",
