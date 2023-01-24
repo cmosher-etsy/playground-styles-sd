@@ -1,0 +1,14 @@
+{
+  "size": {
+    "border": {
+      "width": {
+        "base": {
+          "value": "1px"
+        },
+        "heavier": {
+          "value": "2px"
+        }
+      }
+    }
+  }
+}
