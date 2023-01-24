@@ -6,12 +6,17 @@
           "value": "{color.base.denim.light.value}",
           "darkValue": "{color.base.greyscale.000.darkValue}"
         },
-        "buffer-color": {
-          "value": "{color.base.greyscale.000.value}",
-          "darkValue": "{color.base.denim.light.darkValue}"
-        },
         "width": {
-          "value": "{size.border.width.heavier}"
+          "value": "{effect.border.width.heavier}"
+        },
+        "buffer": {
+          "color": {
+            "value": "{color.base.greyscale.000.value}",
+            "darkValue": "{color.base.denim.light.darkValue}"
+          },
+          "width": {
+            "value": "{effect.border.width.heavier}"
+          }
         }
       }
     }

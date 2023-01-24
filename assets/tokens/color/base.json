@@ -3,22 +3,27 @@
     "base": {
       "greyscale": {
         "000": {
+          "rgb": "0, 0, 0",
           "value": "#FFFFFF",
           "darkValue": "#FFFFFF"
         },
         "100": {
+          "rgb": "249, 249, 249",
           "value": "#f9f9f9",
           "darkValue": "#f9f9f9"
         },
         "400": {
+          "rgb": "234, 234, 234",
           "value": "#EAEAEA",
           "darkValue": "#EAEAEA"
         },
         "800": {
+          "rgb": "47, 47, 47",
           "value": "#2f2f2f",
           "darkValue": "#2f2f2f"
         },
         "900": {
+          "rgb": "34, 34, 34",
           "value": "#222222",
           "darkValue": "#222222"
         }

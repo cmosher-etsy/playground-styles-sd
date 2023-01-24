@@ -14,11 +14,8 @@
         "spread": {
           "value": "0px"
         },
-        "opacity": {
-          "value": "0.15"
-        },
         "color": {
-          "value": "{color.base.greyscale.900.value}"
+          "value": "rgba({color.base.greyscale.900.rgb}, 0.15)"
         }
       },
       "200": {
@@ -38,7 +35,7 @@
           "value": "0.325"
         },
         "color": {
-          "value": "{color.base.greyscale.900.value}"
+          "value": "rgba({color.base.greyscale.900.rgb}, 0.325)"
         }
       }
     }

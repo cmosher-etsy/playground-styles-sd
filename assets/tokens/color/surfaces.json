@@ -81,8 +81,8 @@
           },
           "disabled": {
             "fg": {
-              "value": "{color.base.greyscale.900.value}",
-              "darkValue": "{color.base.greyscale.900.darkValue}"
+              "value": "{color.base.greyscale.000.value}",
+              "darkValue": "{color.base.greyscale.000.darkValue}"
             },
             "bg": {
               "value": "{color.base.greyscale.400.value}",
