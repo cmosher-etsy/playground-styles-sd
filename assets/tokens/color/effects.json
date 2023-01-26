@@ -3,12 +3,20 @@
     "effect": {
       "focus": {
         "outline": {
-          "value": "{color.system.denim.light.value}",
-          "darkValue": "{color.system.greyscale.000.value}"
+          "value": "{color.system.denim.light.value}"
         },
         "buffer": {
-          "value": "{color.system.greyscale.000.value}",
-          "darkValue": "{color.system.denim.light.value}"
+          "value": "{color.surface.bg.value}"
+        }
+      },
+      "shadow": {
+        "1": {
+          "value": "{color.system.transparent.black.200.value}",
+          "darkValue": "{color.system.transparent.white.200.value}"
+        },
+        "2": {
+          "value": "{color.system.transparent.black.300.value}",
+          "darkValue": "{color.system.transparent.white.300.value}"
         }
       }
     }

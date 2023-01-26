@@ -62,7 +62,7 @@
         },
         "border": {
           "value": "{color.system.transparent.black.200.value}",
-          "darkValue": "{color.system.transparent.white.200.value}"
+          "darkValue": "{color.system.greyscale.600.value}"
         },
         "hover": {
           "fg": {
@@ -75,7 +75,7 @@
           },
           "border": {
             "value": "{color.system.transparent.black.500.value}",
-            "darkValue": "{color.system.transparent.white.500.value}"
+            "darkValue": "{color.system.greyscale.400.value}"
           }
         },
         "invalid": {
@@ -108,11 +108,12 @@
             "darkValue": "{color.system.greyscale.000.value}"
           },
           "bg": {
-            "value": "{color.system.greyscale.400.value}"
+            "value": "{color.system.greyscale.400.value}",
+            "darkValue": "{color.system.greyscale.600.value}"
           },
           "border": {
-            "value": "{color.system.transparent.black.200.value}",
-            "darkValue": "{color.system.transparent.white.200.value}"
+            "value": "{color.system.greyscale.600.value}",
+            "darkValue": "{color.system.greyscale.400.value}"
           },
           "hover": {
             "fg": {
@@ -120,11 +121,12 @@
               "darkValue": "{color.system.greyscale.000.value}"
             },
             "bg": {
-              "value": "{color.system.greyscale.400.value}"
+              "value": "{color.system.greyscale.400.value}",
+              "darkValue": "{color.system.greyscale.600.value}"
             },
             "border": {
-              "value": "{color.system.transparent.black.200.value}",
-              "darkValue": "{color.system.transparent.white.200.value}"
+              "value": "{color.system.greyscale.600.value}",
+              "darkValue": "{color.system.greyscale.400.value}"
             }
           }
         }
@@ -164,11 +166,11 @@
             },
             "bg": {
               "value": "{color.system.transparent.black.500.value}",
-              "darkValue": "{color.system.transparent.white.500.value}"
+              "darkValue": "{color.system.greyscale.700.value}"
             },
             "border": {
               "value": "{color.system.transparent.black.500.value}",
-              "darkValue": "{color.system.transparent.white.500.value}"
+              "darkValue": "{color.system.greyscale.700.value}"
             },
             "hover": {
               "fg": {
@@ -177,11 +179,11 @@
               },
               "bg": {
                 "value": "{color.system.transparent.black.500.value}",
-                "darkValue": "{color.system.transparent.white.500.value}"
+                "darkValue": "{color.system.greyscale.700.value}"
               },
               "border": {
                 "value": "{color.system.transparent.black.500.value}",
-                "darkValue": "{color.system.transparent.white.500.value}"
+                "darkValue": "{color.system.greyscale.700.value}"
               }
             }
           }

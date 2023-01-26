@@ -3,16 +3,14 @@
     "outline": {
       "focus": {
         "color": {
-          "value": "{color.system.denim.light.value}",
-          "darkValue": "{color.system.greyscale.000.value}"
+          "value": "{color.effect.focus.outline.value}"
         },
         "width": {
           "value": "{shape.border.width.2.value}"
         },
         "buffer": {
           "color": {
-            "value": "{color.system.greyscale.000.value}",
-            "darkValue": "{color.system.denim.light.value}"
+            "value": "{color.effect.focus.buffer.value}"
           },
           "width": {
             "value": "{shape.border.width.2.value}"

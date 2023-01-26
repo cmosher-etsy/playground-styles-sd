@@ -15,7 +15,7 @@
           "value": "0px"
         },
         "color": {
-          "value": "{color.system.transparent.black.200.value}"
+          "value": "{color.effect.shadow.1.value}"
         }
       },
       "200": {
@@ -35,7 +35,7 @@
           "value": "0.325"
         },
         "color": {
-          "value": "{color.system.transparent.black.300.value}"
+          "value": "{color.effect.shadow.2.value}"
         }
       }
     }
