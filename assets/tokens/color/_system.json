@@ -3,53 +3,42 @@
     "system": {
       "greyscale": {
         "000": {
-          "value": "#FFFFFF",
-          "darkValue": "#FFFFFF"
+          "value": "#FFFFFF"
         },
         "100": {
-          "value": "#f9f9f9",
-          "darkValue": "#f9f9f9"
+          "value": "#f9f9f9"
         },
         "400": {
-          "value": "#EAEAEA",
-          "darkValue": "#EAEAEA"
+          "value": "#EAEAEA"
         },
         "800": {
-          "value": "#2f2f2f",
-          "darkValue": "#2f2f2f"
+          "value": "#2f2f2f"
         },
         "900": {
-          "value": "#222222",
-          "darkValue": "#222222"
+          "value": "#222222"
         }
       },
       "transparent": {
         "white": {
           "200": {
-            "value": "rgba(0, 0, 0, .15)",
-            "darkValue": "rgba(0, 0, 0, .15)"
+            "value": "rgba(0, 0, 0, .15)"
           },
           "300": {
-            "value": "rgba(0, 0, 0, .325)",
-            "darkValue": "rgba(0, 0, 0, .325)"
+            "value": "rgba(0, 0, 0, .325)"
           },
           "500": {
-            "value": "rgba(0, 0, 0, .325)",
-            "darkValue": "rgba(0, 0, 0, .5)"
+            "value": "rgba(0, 0, 0, .5)"
           }
         },
         "black": {
           "200": {
-            "value": "rgba(34, 34, 34, .15)",
-            "darkValue": "rgba(34, 34, 34, .15)"
+            "value": "rgba(34, 34, 34, .15)"
           },
           "300": {
-            "value": "rgba(34, 34, 34, .325)",
-            "darkValue": "rgba(34, 34, 34, .325)"
+            "value": "rgba(34, 34, 34, .325)"
           },
           "500": {
-            "value": "rgba(34, 34, 34, .325)",
-            "darkValue": "rgba(34, 34, 34, .5)"
+            "value": "rgba(34, 34, 34, .5)"
           }
         }
       },
@@ -67,14 +56,12 @@
           "darkValue": "#829cee"
         },
         "dark": {
-          "value": "#232347",
-          "darkValue": "#232347"
+          "value": "#232347"
         }
       },
       "brick": {
         "base": {
-          "value": "#A61A2E",
-          "darkValue": "#A61A2E"
+          "value": "#A61A2E"
         },
         "tint": {
           "value": "#FDDCD8",
@@ -91,16 +78,14 @@
       },
       "beeswax": {
         "base": {
-          "value": "#FAA129",
-          "darkValue": "#FAA129"
+          "value": "#FAA129"
         },
         "tint": {
           "value": "#FDEBD2",
           "darkValue": "#e2d3bd"
         },
         "light": {
-          "value": "#FDD95C",
-          "darkValue": "#FDD95C"
+          "value": "#FDD95C"
         },
         "dark": {
           "value": "#A66800",
