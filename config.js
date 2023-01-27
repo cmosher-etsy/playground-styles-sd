@@ -3,18 +3,21 @@ module.exports = {
 
   // custom token transforms
   transform: {
-    "color/useDarkValue": require('./transforms/useDarkValue'),
+    "color/useDarkValue": require("./transforms/useDarkValue"),
   },
 
   // custom output file formats
   format: {
-    scssFormat: require('./formats/useSCSSFormat'),
-    cssDarkThemeFormat: require('./formats/useCSSDarkThemeFormat'),
-    flutterMaterialColorFormat: require('./formats/useFlutterMaterialColorFormat'),
+    cssFormat: require("./formats/cssFormat")({ dataSelector: "" }),
+    cssFormatDark: require("./formats/cssFormat")({ dataSelector: "[data-theme=dark]" }),
+    scssFormat: require("./formats/scssFormat")(),
+    flutterMaterialColorFormat:
+      require("./formats/flutterMaterialColorFormat")({ className: "CollageColor" }),
+    flutterMaterialColorFormatDark:
+      require("./formats/flutterMaterialColorFormat")({ className: "CollageColorDark" }),
   },
 
   platforms: {
-
     /**
      * CSS Variables
      */
@@ -30,7 +33,7 @@ module.exports = {
       files: [
         {
           destination: "variables.css",
-          format: "css/variables",
+          format: "cssFormat",
           options: {
             outputReferences: true,
           },
@@ -50,7 +53,7 @@ module.exports = {
       files: [
         {
           destination: "variables-dark.css",
-          format: "cssDarkThemeFormat",
+          format: "cssFormatDark",
           options: {
             outputReferences: true,
           },
@@ -139,7 +142,7 @@ module.exports = {
       files: [
         {
           destination: "collage_color_dark.dart",
-          format: "flutterMaterialColorFormat",
+          format: "flutterMaterialColorFormatDark",
           filter: (token) => token.value.indexOf("Color(") === 0,
         },
       ],
