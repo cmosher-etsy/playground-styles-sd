@@ -1,19 +1,19 @@
 let fs = import("fs");
 
 function getSCSSVariables() {
-  return fs.readFileSync("./dist/scss/_variables.scss");
+  return fs.readFileSync("./dist/web/_variables.scss");
 }
 
 function getSCSSDarkVariables() {
-  return fs.readFileSync("./dist/scss/_variables-dark.scss");
+  return fs.readFileSync("./dist/web/_variables-dark.scss");
 }
 
 function getCSSVariables() {
-  return fs.readFileSync("./dist/scss/variables.css");
+  return fs.readFileSync("./dist/web/variables.css");
 }
 
 function getCSSDarkVariables() {
-  return fs.readFileSync("./dist/scss/variables-dark.css");
+  return fs.readFileSync("./dist/web/variables-dark.css");
 }
 
 module.exports = {

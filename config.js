@@ -1,69 +1,26 @@
-// config.js
-const StyleDictionary = require("style-dictionary");
-const { fileHeader, formattedVariables } = StyleDictionary.formatHelpers;
-
-function setValueToDarkValue(token) {
-  if (token && token.darkValue && token.original && token.original.darkValue) {
-    const alteredToken = { ...token };
-    alteredToken.value = token.darkValue;
-    alteredToken.original.value = token.original.darkValue;
-    return alteredToken;
-  } else {
-    return token;
-  }
-}
-
-/**
- * This function will wrap a built-in format and replace `.value` with `.darkValue`
- * if a token has a `.darkValue`.
- * @param {String} format - the name of the built-in format
- * @returns {Function}
- */
-function darkCSSVariables(args) {
-  // Override each token's `value` with `darkValue`
-  const dictionary = Object.assign({}, args.dictionary);
-  dictionary.allTokens = args.dictionary.allTokens.map(setValueToDarkValue);
-  dictionary.allProperties =
-    args.dictionary.allProperties.map(setValueToDarkValue);
-
-  const { outputReferences } = args.options;
-  return (
-    fileHeader({ file: args.file }) +
-    "[data-theme=dark]:root {\n" +
-    formattedVariables({
-      format: "css",
-      dictionary,
-      outputReferences,
-    }) +
-    "\n}\n"
-  );
-}
-
-function darkSCSSVariables(args) {
-  // Override each token's `value` with `darkValue`
-  const dictionary = Object.assign({}, args.dictionary);
-  dictionary.allTokens = args.dictionary.allTokens.map(setValueToDarkValue);
-  dictionary.allProperties =
-    args.dictionary.allProperties.map(setValueToDarkValue);
-
-  // Use the built-in format but with our customized dictionary object
-  // so it will output the darkValue instead of the value
-  return StyleDictionary.format["scss/variables"]({ ...args, dictionary });
-}
-
 module.exports = {
   source: [`assets/tokens/**/*.json`],
 
-  // custom formats
+  // custom token transforms
+  transform: {
+    "color/useDarkValue": require('./transforms/useDarkValue'),
+  },
+
+  // custom output file formats
   format: {
-    cssDark: darkCSSVariables,
-    scssDark: darkSCSSVariables,
+    scssFormat: require('./formats/useSCSSFormat'),
+    cssDarkThemeFormat: require('./formats/useCSSDarkThemeFormat'),
+    flutterMaterialColorFormat: require('./formats/useFlutterMaterialColorFormat'),
   },
 
   platforms: {
+
+    /**
+     * CSS Variables
+     */
     css: {
       transformGroup: `css`,
-      buildPath: "dist/css/",
+      buildPath: "dist/web/",
       files: [
         {
           destination: "variables.css",
@@ -72,9 +29,23 @@ module.exports = {
             outputReferences: true,
           },
         },
+      ],
+    },
+    cssDark: {
+      buildPath: "dist/web/",
+      transforms: [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/useDarkValue",
+        "color/css",
+        "time/seconds",
+        "content/icon",
+        "size/rem",
+      ],
+      files: [
         {
           destination: "variables-dark.css",
-          format: "cssDark",
+          format: "cssDarkThemeFormat",
           options: {
             outputReferences: true,
           },
@@ -82,169 +53,76 @@ module.exports = {
         },
       ],
     },
+
+    /**
+     * SCSS Variables
+     */
     scss: {
-      transformGroup: "scss",
-      buildPath: "dist/scss/",
+      transformGroup: `scss`,
+      buildPath: "dist/web/",
       files: [
         {
           destination: "_variables.scss",
-          format: "scss/variables",
-        },
-        {
-          destination: "_variables-dark.scss",
-          format: "scssDark",
+          format: "scssFormat",
           options: {
             outputReferences: true,
           },
-          filter: (token) => token.darkValue !== undefined,
         },
       ],
     },
-    android: {
-      transformGroup: "android",
-      buildPath: "dist/android/",
-      files: [
-        {
-          destination: "font_dimens.xml",
-          format: "android/fontDimens",
-        },
-        {
-          destination: "colors.xml",
-          format: "android/colors",
-        },
+    scssDark: {
+      buildPath: "dist/web/",
+      transforms: [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/useDarkValue",
+        "color/css",
+        "time/seconds",
+        "content/icon",
+        "size/rem",
       ],
-    },
-    compose: {
-      transformGroup: "compose",
-      buildPath: "dist/compose/",
       files: [
         {
-          destination: "StyleDictionaryColor.kt",
-          format: "compose/object",
-          className: "StyleDictionaryColor",
-          packageName: "StyleDictionaryColor",
-          filter: {
-            attributes: {
-              category: "color",
-            },
-          },
-        },
-        {
-          destination: "StyleDictionarySize.kt",
-          format: "compose/object",
-          className: "StyleDictionarySize",
-          packageName: "StyleDictionarySize",
-          type: "float",
-          filter: {
-            attributes: {
-              category: "size",
-            },
-          },
-        },
-      ],
-    },
-    ios: {
-      transformGroup: "ios",
-      buildPath: "dist/ios/",
-      files: [
-        {
-          destination: "StyleDictionaryColor.h",
-          format: "ios/colors.h",
-          className: "StyleDictionaryColor",
-          type: "StyleDictionaryColorName",
-          filter: {
-            attributes: {
-              category: "color",
-            },
-          },
-        },
-        {
-          destination: "StyleDictionaryColor.m",
-          format: "ios/colors.m",
-          className: "StyleDictionaryColor",
-          type: "StyleDictionaryColorName",
-          filter: {
-            attributes: {
-              category: "color",
-            },
-          },
-        },
-        {
-          destination: "StyleDictionarySize.h",
-          format: "ios/static.h",
-          className: "StyleDictionarySize",
-          type: "float",
-          filter: {
-            attributes: {
-              category: "size",
-            },
-          },
-        },
-        {
-          destination: "StyleDictionarySize.m",
-          format: "ios/static.m",
-          className: "StyleDictionarySize",
-          type: "float",
-          filter: {
-            attributes: {
-              category: "size",
-            },
-          },
-        },
-      ],
-    },
-    "ios-swift": {
-      transformGroup: "ios-swift",
-      buildPath: "dist/ios-swift/",
-      files: [
-        {
-          destination: "StyleDictionary+Class.swift",
-          format: "ios-swift/class.swift",
-          className: "StyleDictionaryClass",
-          filter: {},
-        },
-        {
-          destination: "StyleDictionary+Enum.swift",
-          format: "ios-swift/enum.swift",
-          className: "StyleDictionaryEnum",
-          filter: {},
-        },
-        {
-          destination: "StyleDictionary+Struct.swift",
-          format: "ios-swift/any.swift",
-          className: "StyleDictionaryStruct",
-          filter: {},
+          destination: "_variables-dark.scss",
+          format: "scssFormat",
           options: {
-            imports: "SwiftUI",
-            objectType: "struct",
-            accessControl: "internal",
+            outputReferences: true,
           },
         },
       ],
     },
-    "ios-swift-separate-enums": {
-      transformGroup: "ios-swift-separate",
-      buildPath: "dist/ios-swift/",
+
+    /**
+     * Flutter .dart files
+     */
+    dart: {
+      buildPath: "dist/flutter/",
+      transformGroup: `flutter`,
       files: [
         {
-          destination: "StyleDictionaryColor.swift",
-          format: "ios-swift/enum.swift",
-          className: "StyleDictionaryColor",
-          filter: {
-            attributes: {
-              category: "color",
-            },
-          },
+          destination: "collage_color.dart",
+          format: "flutterMaterialColorFormat",
+          filter: (token) => token.value.indexOf("Color(") === 0,
         },
+      ],
+    },
+    dartDark: {
+      buildPath: "dist/flutter/",
+      transforms: [
+        "attribute/cti",
+        "name/cti/camel",
+        "color/useDarkValue",
+        "color/hex8flutter",
+        "size/flutter/remToDouble",
+        "content/flutter/literal",
+        "asset/flutter/literal",
+        "font/flutter/literal",
+      ],
+      files: [
         {
-          destination: "StyleDictionarySize.swift",
-          format: "ios-swift/enum.swift",
-          className: "StyleDictionarySize",
-          filter: {
-            attributes: {
-              category: "size",
-            },
-          },
+          destination: "collage_color_dark.dart",
+          format: "flutterMaterialColorFormat",
+          filter: (token) => token.value.indexOf("Color(") === 0,
         },
       ],
     },

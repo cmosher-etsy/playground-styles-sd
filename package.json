@@ -24,9 +24,9 @@
   },
   "files": [
     "index.js",
-    "dist/scss/_variables.scss",
-    "dist/scss/_variables-dark.scss",
-    "dist/css/variables.css",
-    "dist/css/variables-dark.css"
+    "dist/web/_variables.scss",
+    "dist/web/_variables-dark.scss",
+    "dist/web/variables.css",
+    "dist/web/variables-dark.css"
   ]
 }
