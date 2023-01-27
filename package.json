@@ -23,7 +23,6 @@
     "style-dictionary": "^3.7.2"
   },
   "files": [
-    "index.js",
     "dist/web/_variables.scss",
     "dist/web/_variables-dark.scss",
     "dist/web/variables.css",

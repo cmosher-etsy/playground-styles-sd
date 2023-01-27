@@ -19,8 +19,14 @@ module.exports = {
      * CSS Variables
      */
     css: {
-      transformGroup: `css`,
       buildPath: "dist/web/",
+      transforms: [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/css",
+        "time/seconds",
+        "content/icon",
+      ],
       files: [
         {
           destination: "variables.css",
@@ -40,7 +46,6 @@ module.exports = {
         "color/css",
         "time/seconds",
         "content/icon",
-        "size/rem",
       ],
       files: [
         {
@@ -58,8 +63,14 @@ module.exports = {
      * SCSS Variables
      */
     scss: {
-      transformGroup: `scss`,
       buildPath: "dist/web/",
+      transforms: [
+        "attribute/cti",
+        "name/cti/kebab",
+        "color/css",
+        "time/seconds",
+        "content/icon",
+      ],
       files: [
         {
           destination: "_variables.scss",
@@ -79,7 +90,6 @@ module.exports = {
         "color/css",
         "time/seconds",
         "content/icon",
-        "size/rem",
       ],
       files: [
         {
@@ -97,7 +107,15 @@ module.exports = {
      */
     dart: {
       buildPath: "dist/flutter/",
-      transformGroup: `flutter`,
+      transforms: [
+        "attribute/cti",
+        "name/cti/camel",
+        "color/hex8flutter",
+        "size/flutter/remToDouble",
+        "content/flutter/literal",
+        "asset/flutter/literal",
+        "font/flutter/literal",
+      ],
       files: [
         {
           destination: "collage_color.dart",
