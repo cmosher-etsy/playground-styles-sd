@@ -3,7 +3,9 @@ module.exports = {
 
   // custom token transforms
   transform: {
-    "color/useDarkValue": require("./transforms/useDarkValue"),
+    "useDarkValues": require("./transforms/useDarkValues"),
+    "useImplicitPixels": require("./transforms/useImplicitPixels"),
+    "useExplicitStrings": require("./transforms/useExplicitStrings"),
   },
 
   // custom output file formats
@@ -11,6 +13,7 @@ module.exports = {
     cssFormat: require("./formats/cssFormat")({ dataSelector: "" }),
     cssFormatDark: require("./formats/cssFormat")({ dataSelector: "[data-theme=dark]" }),
     scssFormat: require("./formats/scssFormat")(),
+    flutterFormat: require("./formats/flutterFormat")({ className: "Collage" }),
     flutterMaterialColorFormat:
       require("./formats/flutterMaterialColorFormat")({ className: "CollageColor" }),
     flutterMaterialColorFormatDark:
@@ -45,7 +48,7 @@ module.exports = {
       transforms: [
         "attribute/cti",
         "name/cti/kebab",
-        "color/useDarkValue",
+        "useDarkValues",
         "color/css",
         "time/seconds",
         "content/icon",
@@ -89,7 +92,7 @@ module.exports = {
       transforms: [
         "attribute/cti",
         "name/cti/kebab",
-        "color/useDarkValue",
+        "useDarkValues",
         "color/css",
         "time/seconds",
         "content/icon",
@@ -110,6 +113,28 @@ module.exports = {
      */
     dart: {
       buildPath: "dist/flutter/",
+      transformGroup: "flutter",
+      transforms: [
+        "attribute/cti",
+        "name/cti/camel",
+        "useImplicitPixels",
+        "color/hex8flutter",
+        "size/flutter/remToDouble",
+        "content/flutter/literal",
+        "asset/flutter/literal",
+        "font/flutter/literal",
+        "useExplicitStrings",
+      ],
+      files: [
+        {
+          destination: "collage.dart",
+          format: "flutterFormat",
+          filter: (token) => token.attributes.category !== "color",
+        },
+      ],
+    },
+    dartColors: {
+      buildPath: "dist/flutter/",
       transforms: [
         "attribute/cti",
         "name/cti/camel",
@@ -123,16 +148,16 @@ module.exports = {
         {
           destination: "collage_color.dart",
           format: "flutterMaterialColorFormat",
-          filter: (token) => token.value.indexOf("Color(") === 0,
+          filter: (token) => token.attributes.category === "color",
         },
       ],
     },
-    dartDark: {
+    dartColorsDark: {
       buildPath: "dist/flutter/",
       transforms: [
         "attribute/cti",
         "name/cti/camel",
-        "color/useDarkValue",
+        "useDarkValues",
         "color/hex8flutter",
         "size/flutter/remToDouble",
         "content/flutter/literal",
@@ -143,7 +168,7 @@ module.exports = {
         {
           destination: "collage_color_dark.dart",
           format: "flutterMaterialColorFormatDark",
-          filter: (token) => token.value.indexOf("Color(") === 0,
+          filter: (token) => token.attributes.category === "color",
         },
       ],
     },

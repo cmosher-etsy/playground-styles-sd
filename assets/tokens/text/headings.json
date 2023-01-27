@@ -4,6 +4,14 @@
       "family": {
         "value": "{text.system.family.guardian}"
       },
+      "family-fallback": {
+        "1": {
+          "value": "{text.system.family.guardian-fallback.1}"
+        },
+        "2": {
+          "value": "{text.system.family.guardian-fallback.2}"
+        }
+      },
       "weight": {
         "value": "{text.system.weight.300}"
       },

@@ -4,6 +4,14 @@
       "family": {
         "value": "{text.system.family.graphik}"
       },
+      "family-fallback": {
+        "1": {
+          "value": "{text.system.family.graphik-fallback.1}"
+        },
+        "2": {
+          "value": "{text.system.family.graphik-fallback.2}"
+        }
+      },
       "weight": {
         "value": "{text.system.weight.400}"
       },

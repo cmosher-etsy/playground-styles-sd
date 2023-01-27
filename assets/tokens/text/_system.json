@@ -3,10 +3,26 @@
     "system": {
       "family": {
         "guardian": {
-          "value": "\"Comic Sans MS\", \"Comic Sans\", cursive"
+          "value": "\"Comic Sans MS\""
+        },
+        "guardian-fallback": {
+          "1": {
+            "value": "\"Comic Sans\""
+          },
+          "2": {
+            "value": "cursive"
+          }
         },
         "graphik": {
-          "value": "Arial, Helvetica, sans-serif"
+          "value": "Arial"
+        },
+        "graphik-fallback": {
+          "1": {
+            "value": "Helvetica"
+          },
+          "2": {
+            "value": "sans-serif"
+          }
         }
       },
       "weight": {
