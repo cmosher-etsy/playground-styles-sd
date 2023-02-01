@@ -3,7 +3,7 @@
     "effect": {
       "focus": {
         "outline": {
-          "value": "{color.system.denim.light.value}"
+          "value": "{color.palette.denim.light.value}"
         },
         "buffer": {
           "value": "{color.surface.bg.value}"
@@ -11,12 +11,12 @@
       },
       "shadow": {
         "1": {
-          "value": "{color.system.transparent.black.200.value}",
-          "darkValue": "{color.system.transparent.white.200.value}"
+          "value": "{color.palette.transparent.black.200.value}",
+          "darkValue": "{color.palette.transparent.white.200.value}"
         },
         "2": {
-          "value": "{color.system.transparent.black.300.value}",
-          "darkValue": "{color.system.transparent.white.300.value}"
+          "value": "{color.palette.transparent.black.300.value}",
+          "darkValue": "{color.palette.transparent.white.300.value}"
         }
       }
     }

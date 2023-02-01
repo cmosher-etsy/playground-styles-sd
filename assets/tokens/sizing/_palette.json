@@ -1,6 +1,6 @@
 {
   "sizing": {
-    "system": {
+    "palette": {
       "base-unit": {
         "value": "6px"
       }

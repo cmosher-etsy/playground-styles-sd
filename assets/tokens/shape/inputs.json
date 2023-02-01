@@ -3,22 +3,22 @@
     "input": {
       "min-height": {
         "base": {
-          "value": "calc({sizing.system.base-unit} * 8)"
+          "value": "calc({sizing.palette.base-unit} * 8)"
         },
         "smaller": {
-          "value": "calc({sizing.system.base-unit} * 6)"
+          "value": "calc({sizing.palette.base-unit} * 6)"
         }
       },
       "border": {
         "width": {
-          "value": "{shape.system.stroke.weight.100.value}"
+          "value": "{shape.palette.stroke.weight.100.value}"
         },
         "radius": {
           "base": {
-            "value": "{shape.system.stroke.corner-radius.100.value}"
+            "value": "{shape.palette.stroke.corner-radius.100.value}"
           },
           "smaller": {
-            "value": "{shape.system.stroke.corner-radius.050.value}"
+            "value": "{shape.palette.stroke.corner-radius.050.value}"
           }
         }
       }

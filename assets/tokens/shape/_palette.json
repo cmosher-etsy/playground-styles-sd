@@ -1,6 +1,6 @@
 {
   "shape": {
-    "system": {
+    "palette": {
       "stroke": {
         "weight": {
           "100": {
@@ -12,16 +12,16 @@
         },
         "corner-radius": {
           "050": {
-            "value": "calc({sizing.system.base-unit} / 2)"
+            "value": "calc({sizing.palette.base-unit} / 2)"
           },
           "100": {
-            "value": "{sizing.system.base-unit}"
+            "value": "{sizing.palette.base-unit}"
           },
           "200": {
-            "value": "calc({sizing.system.base-unit} * 2)"
+            "value": "calc({sizing.palette.base-unit} * 2)"
           },
           "300": {
-            "value": "calc({sizing.system.base-unit} * 3)"
+            "value": "calc({sizing.palette.base-unit} * 3)"
           }
         }
       }

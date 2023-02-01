@@ -2,27 +2,27 @@
   "font": {
     "body": {
       "family": {
-        "value": "{font.system.family.graphik}"
+        "value": "{font.palette.family.graphik}"
       },
       "family-fallback": {
         "1": {
-          "value": "{font.system.family.graphik-fallback.1}"
+          "value": "{font.palette.family.graphik-fallback.1}"
         },
         "2": {
-          "value": "{font.system.family.graphik-fallback.2}"
+          "value": "{font.palette.family.graphik-fallback.2}"
         }
       },
       "weight": {
-        "value": "{font.system.weight.400}"
+        "value": "{font.palette.weight.400}"
       },
       "size": {
-        "value": "{font.system.size.200}"
+        "value": "{font.palette.size.200}"
       },
       "letter-spacing": {
-        "value": "{font.system.letter-spacing.000}"
+        "value": "{font.palette.letter-spacing.000}"
       },
       "line-height": {
-        "value": "{font.system.line-height.350}"
+        "value": "{font.palette.line-height.350}"
       }
     }
   }

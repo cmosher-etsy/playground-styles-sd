@@ -3,21 +3,21 @@
     "border": {
       "width": {
         "1": {
-          "value": "{shape.system.stroke.weight.100.value}"
+          "value": "{shape.palette.stroke.weight.100.value}"
         },
         "2": {
-          "value": "{shape.system.stroke.weight.200.value}"
+          "value": "{shape.palette.stroke.weight.200.value}"
         }
       },
       "radius": {
         "1": {
-          "value": "{shape.system.stroke.corner-radius.100.value}"
+          "value": "{shape.palette.stroke.corner-radius.100.value}"
         },
         "2": {
-          "value": "{shape.system.stroke.corner-radius.200.value}"
+          "value": "{shape.palette.stroke.corner-radius.200.value}"
         },
         "3": {
-          "value": "{shape.system.stroke.corner-radius.300.value}"
+          "value": "{shape.palette.stroke.corner-radius.300.value}"
         }
       }
     }
