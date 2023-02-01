@@ -1,6 +1,14 @@
 {
   "shape": {
     "input": {
+      "min-height": {
+        "base": {
+          "value": "calc({sizing.system.base-unit} * 8)"
+        },
+        "smaller": {
+          "value": "calc({sizing.system.base-unit} * 6)"
+        }
+      },
       "border": {
         "width": {
           "value": "{shape.system.stroke.weight.100.value}"

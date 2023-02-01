@@ -1,0 +1,29 @@
+{
+  "font": {
+    "heading": {
+      "family": {
+        "value": "{font.system.family.guardian}"
+      },
+      "family-fallback": {
+        "1": {
+          "value": "{font.system.family.guardian-fallback.1}"
+        },
+        "2": {
+          "value": "{font.system.family.guardian-fallback.2}"
+        }
+      },
+      "weight": {
+        "value": "{font.system.weight.300}"
+      },
+      "size": {
+        "value": "{font.system.size.450}"
+      },
+      "letter-spacing": {
+        "value": "{font.system.letter-spacing.800}"
+      },
+      "line-height": {
+        "value": "{font.system.line-height.450}"
+      }
+    }
+  }
+}

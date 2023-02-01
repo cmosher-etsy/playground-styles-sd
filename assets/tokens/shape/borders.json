@@ -18,9 +18,6 @@
         },
         "3": {
           "value": "{shape.system.stroke.corner-radius.300.value}"
-        },
-        "circle": {
-          "value": "50%"
         }
       }
     }

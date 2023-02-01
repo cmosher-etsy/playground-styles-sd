@@ -3,10 +3,10 @@
     "button": {
       "min-height": {
         "base": {
-          "value": "48px"
+          "value": "calc({sizing.system.base-unit} * 8)"
         },
         "smaller": {
-          "value": "36px"
+          "value": "calc({sizing.system.base-unit} * 6)"
         }
       },
       "border": {
@@ -15,10 +15,10 @@
         },
         "radius": {
           "base": {
-            "value": "24px"
+            "value": "calc({sizing.system.base-unit} * 4)"
           },
           "smaller": {
-            "value": "18px"
+            "value": "calc({sizing.system.base-unit} * 3)"
           }
         }
       }

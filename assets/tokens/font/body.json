@@ -1,0 +1,29 @@
+{
+  "font": {
+    "body": {
+      "family": {
+        "value": "{font.system.family.graphik}"
+      },
+      "family-fallback": {
+        "1": {
+          "value": "{font.system.family.graphik-fallback.1}"
+        },
+        "2": {
+          "value": "{font.system.family.graphik-fallback.2}"
+        }
+      },
+      "weight": {
+        "value": "{font.system.weight.400}"
+      },
+      "size": {
+        "value": "{font.system.size.200}"
+      },
+      "letter-spacing": {
+        "value": "{font.system.letter-spacing.000}"
+      },
+      "line-height": {
+        "value": "{font.system.line-height.350}"
+      }
+    }
+  }
+}

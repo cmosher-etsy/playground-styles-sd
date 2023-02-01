@@ -31,9 +31,6 @@
         "spread": {
           "value": "0px"
         },
-        "opacity": {
-          "value": "0.325"
-        },
         "color": {
           "value": "{color.effect.shadow.2.value}"
         }

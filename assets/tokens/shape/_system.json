@@ -12,16 +12,16 @@
         },
         "corner-radius": {
           "050": {
-            "value": "3px"
+            "value": "calc({sizing.system.base-unit} / 2)"
           },
           "100": {
-            "value": "6px"
+            "value": "{sizing.system.base-unit}"
           },
           "200": {
-            "value": "12px"
+            "value": "calc({sizing.system.base-unit} * 2)"
           },
           "300": {
-            "value": "18px"
+            "value": "calc({sizing.system.base-unit} * 3)"
           }
         }
       }

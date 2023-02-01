@@ -4,6 +4,7 @@ module.exports = {
   // custom token transforms
   transform: {
     "useDarkValues": require("./transforms/useDarkValues"),
+    "useImplicitCalcs": require("./transforms/useImplicitCalcs"),
     "useImplicitPixels": require("./transforms/useImplicitPixels"),
     "useExplicitStrings": require("./transforms/useExplicitStrings"),
   },
@@ -30,8 +31,6 @@ module.exports = {
         "attribute/cti",
         "name/cti/kebab",
         "color/css",
-        "time/seconds",
-        "content/icon",
       ],
       files: [
         {
@@ -50,8 +49,6 @@ module.exports = {
         "name/cti/kebab",
         "useDarkValues",
         "color/css",
-        "time/seconds",
-        "content/icon",
       ],
       files: [
         {
@@ -74,8 +71,6 @@ module.exports = {
         "attribute/cti",
         "name/cti/kebab",
         "color/css",
-        "time/seconds",
-        "content/icon",
       ],
       files: [
         {
@@ -94,8 +89,6 @@ module.exports = {
         "name/cti/kebab",
         "useDarkValues",
         "color/css",
-        "time/seconds",
-        "content/icon",
       ],
       files: [
         {
@@ -118,11 +111,8 @@ module.exports = {
         "attribute/cti",
         "name/cti/camel",
         "useImplicitPixels",
+        "useImplicitCalcs",
         "color/hex8flutter",
-        "size/flutter/remToDouble",
-        "content/flutter/literal",
-        "asset/flutter/literal",
-        "font/flutter/literal",
         "useExplicitStrings",
       ],
       files: [
@@ -139,10 +129,6 @@ module.exports = {
         "attribute/cti",
         "name/cti/camel",
         "color/hex8flutter",
-        "size/flutter/remToDouble",
-        "content/flutter/literal",
-        "asset/flutter/literal",
-        "font/flutter/literal",
       ],
       files: [
         {
@@ -159,10 +145,6 @@ module.exports = {
         "name/cti/camel",
         "useDarkValues",
         "color/hex8flutter",
-        "size/flutter/remToDouble",
-        "content/flutter/literal",
-        "asset/flutter/literal",
-        "font/flutter/literal",
       ],
       files: [
         {
