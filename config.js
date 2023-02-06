@@ -102,6 +102,45 @@ module.exports = {
     },
 
     /**
+     * Figma JSON files
+     */
+    json: {
+      buildPath: "dist/figma/",
+      transforms: [
+        "attribute/cti",
+        "name/cti/pascal",
+        "color/hex",
+      ],
+      files: [
+        {
+          destination: "variables.json",
+          format: "json",
+          options: {
+            outputReferences: false,
+          },
+        },
+      ],
+    },
+    jsonDark: {
+      buildPath: "dist/figma/",
+      transforms: [
+        "attribute/cti",
+        "name/cti/pascal",
+        "useDarkValues",
+        "color/hex",
+      ],
+      files: [
+        {
+          destination: "variables-dark.json",
+          format: "json",
+          options: {
+            outputReferences: false,
+          },
+        },
+      ],
+    },
+
+    /**
      * Flutter .dart files
      */
     dart: {
