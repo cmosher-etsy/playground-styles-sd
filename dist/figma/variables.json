@@ -1,0 +1,3666 @@
+{
+  "color": {
+    "palette": {
+      "greyscale": {
+        "100": {
+          "value": "#f9f9f9",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#f9f9f9"
+          },
+          "name": "ColorPaletteGreyscale100",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "greyscale",
+            "subitem": "100"
+          },
+          "path": [
+            "color",
+            "palette",
+            "greyscale",
+            "100"
+          ]
+        },
+        "400": {
+          "value": "#eaeaea",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#EAEAEA"
+          },
+          "name": "ColorPaletteGreyscale400",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "greyscale",
+            "subitem": "400"
+          },
+          "path": [
+            "color",
+            "palette",
+            "greyscale",
+            "400"
+          ]
+        },
+        "600": {
+          "value": "#757575",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#757575"
+          },
+          "name": "ColorPaletteGreyscale600",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "greyscale",
+            "subitem": "600"
+          },
+          "path": [
+            "color",
+            "palette",
+            "greyscale",
+            "600"
+          ]
+        },
+        "700": {
+          "value": "#595959",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#595959"
+          },
+          "name": "ColorPaletteGreyscale700",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "greyscale",
+            "subitem": "700"
+          },
+          "path": [
+            "color",
+            "palette",
+            "greyscale",
+            "700"
+          ]
+        },
+        "800": {
+          "value": "#2f2f2f",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#2f2f2f"
+          },
+          "name": "ColorPaletteGreyscale800",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "greyscale",
+            "subitem": "800"
+          },
+          "path": [
+            "color",
+            "palette",
+            "greyscale",
+            "800"
+          ]
+        },
+        "900": {
+          "value": "#222222",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#222222"
+          },
+          "name": "ColorPaletteGreyscale900",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "greyscale",
+            "subitem": "900"
+          },
+          "path": [
+            "color",
+            "palette",
+            "greyscale",
+            "900"
+          ]
+        },
+        "000": {
+          "value": "#ffffff",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#FFFFFF"
+          },
+          "name": "ColorPaletteGreyscale000",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "greyscale",
+            "subitem": "000"
+          },
+          "path": [
+            "color",
+            "palette",
+            "greyscale",
+            "000"
+          ]
+        }
+      },
+      "transparent": {
+        "white": {
+          "200": {
+            "value": "#000000",
+            "filePath": "assets/tokens/color/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "rgba(0, 0, 0, .15)"
+            },
+            "name": "ColorPaletteTransparentWhite200",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "item": "transparent",
+              "subitem": "white",
+              "state": "200"
+            },
+            "path": [
+              "color",
+              "palette",
+              "transparent",
+              "white",
+              "200"
+            ]
+          },
+          "300": {
+            "value": "#000000",
+            "filePath": "assets/tokens/color/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "rgba(0, 0, 0, .325)"
+            },
+            "name": "ColorPaletteTransparentWhite300",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "item": "transparent",
+              "subitem": "white",
+              "state": "300"
+            },
+            "path": [
+              "color",
+              "palette",
+              "transparent",
+              "white",
+              "300"
+            ]
+          },
+          "500": {
+            "value": "#000000",
+            "filePath": "assets/tokens/color/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "rgba(0, 0, 0, .5)"
+            },
+            "name": "ColorPaletteTransparentWhite500",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "item": "transparent",
+              "subitem": "white",
+              "state": "500"
+            },
+            "path": [
+              "color",
+              "palette",
+              "transparent",
+              "white",
+              "500"
+            ]
+          }
+        },
+        "black": {
+          "200": {
+            "value": "#222222",
+            "filePath": "assets/tokens/color/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "rgba(34, 34, 34, .15)"
+            },
+            "name": "ColorPaletteTransparentBlack200",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "item": "transparent",
+              "subitem": "black",
+              "state": "200"
+            },
+            "path": [
+              "color",
+              "palette",
+              "transparent",
+              "black",
+              "200"
+            ]
+          },
+          "300": {
+            "value": "#222222",
+            "filePath": "assets/tokens/color/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "rgba(34, 34, 34, .325)"
+            },
+            "name": "ColorPaletteTransparentBlack300",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "item": "transparent",
+              "subitem": "black",
+              "state": "300"
+            },
+            "path": [
+              "color",
+              "palette",
+              "transparent",
+              "black",
+              "300"
+            ]
+          },
+          "500": {
+            "value": "#222222",
+            "filePath": "assets/tokens/color/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "rgba(34, 34, 34, .5)"
+            },
+            "name": "ColorPaletteTransparentBlack500",
+            "attributes": {
+              "category": "color",
+              "type": "palette",
+              "item": "transparent",
+              "subitem": "black",
+              "state": "500"
+            },
+            "path": [
+              "color",
+              "palette",
+              "transparent",
+              "black",
+              "500"
+            ]
+          }
+        }
+      },
+      "denim": {
+        "base": {
+          "value": "#2f466c",
+          "darkValue": "#426194",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#2F466C",
+            "darkValue": "#426194"
+          },
+          "name": "ColorPaletteDenimBase",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "denim",
+            "subitem": "base"
+          },
+          "path": [
+            "color",
+            "palette",
+            "denim",
+            "base"
+          ]
+        },
+        "tint": {
+          "value": "#d7e6f5",
+          "darkValue": "#b5c6d8",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#D7E6F5",
+            "darkValue": "#b5c6d8"
+          },
+          "name": "ColorPaletteDenimTint",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "denim",
+            "subitem": "tint"
+          },
+          "path": [
+            "color",
+            "palette",
+            "denim",
+            "tint"
+          ]
+        },
+        "light": {
+          "value": "#4d6bc6",
+          "darkValue": "#829cee",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#4D6BC6",
+            "darkValue": "#829cee"
+          },
+          "name": "ColorPaletteDenimLight",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "denim",
+            "subitem": "light"
+          },
+          "path": [
+            "color",
+            "palette",
+            "denim",
+            "light"
+          ]
+        },
+        "dark": {
+          "value": "#232347",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#232347"
+          },
+          "name": "ColorPaletteDenimDark",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "denim",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "palette",
+            "denim",
+            "dark"
+          ]
+        }
+      },
+      "brick": {
+        "base": {
+          "value": "#a61a2e",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#A61A2E"
+          },
+          "name": "ColorPaletteBrickBase",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "brick",
+            "subitem": "base"
+          },
+          "path": [
+            "color",
+            "palette",
+            "brick",
+            "base"
+          ]
+        },
+        "tint": {
+          "value": "#fddcd8",
+          "darkValue": "#ca9e99",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#FDDCD8",
+            "darkValue": "#ca9e99"
+          },
+          "name": "ColorPaletteBrickTint",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "brick",
+            "subitem": "tint"
+          },
+          "path": [
+            "color",
+            "palette",
+            "brick",
+            "tint"
+          ]
+        },
+        "light": {
+          "value": "#fd9184",
+          "darkValue": "#f27878",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#FD9184",
+            "darkValue": "#f27878"
+          },
+          "name": "ColorPaletteBrickLight",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "brick",
+            "subitem": "light"
+          },
+          "path": [
+            "color",
+            "palette",
+            "brick",
+            "light"
+          ]
+        },
+        "dark": {
+          "value": "#540d17",
+          "darkValue": "#731f2b",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#540D17",
+            "darkValue": "#731f2b"
+          },
+          "name": "ColorPaletteBrickDark",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "brick",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "palette",
+            "brick",
+            "dark"
+          ]
+        }
+      },
+      "beeswax": {
+        "base": {
+          "value": "#faa129",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#FAA129"
+          },
+          "name": "ColorPaletteBeeswaxBase",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "beeswax",
+            "subitem": "base"
+          },
+          "path": [
+            "color",
+            "palette",
+            "beeswax",
+            "base"
+          ]
+        },
+        "tint": {
+          "value": "#fdebd2",
+          "darkValue": "#e2d3bd",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#FDEBD2",
+            "darkValue": "#e2d3bd"
+          },
+          "name": "ColorPaletteBeeswaxTint",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "beeswax",
+            "subitem": "tint"
+          },
+          "path": [
+            "color",
+            "palette",
+            "beeswax",
+            "tint"
+          ]
+        },
+        "light": {
+          "value": "#fdd95c",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#FDD95C"
+          },
+          "name": "ColorPaletteBeeswaxLight",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "beeswax",
+            "subitem": "light"
+          },
+          "path": [
+            "color",
+            "palette",
+            "beeswax",
+            "light"
+          ]
+        },
+        "dark": {
+          "value": "#a66800",
+          "darkValue": "#db8b00",
+          "filePath": "assets/tokens/color/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "#A66800",
+            "darkValue": "#db8b00"
+          },
+          "name": "ColorPaletteBeeswaxDark",
+          "attributes": {
+            "category": "color",
+            "type": "palette",
+            "item": "beeswax",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "palette",
+            "beeswax",
+            "dark"
+          ]
+        }
+      }
+    },
+    "effect": {
+      "focus": {
+        "outline": {
+          "value": "#4d6bc6",
+          "filePath": "assets/tokens/color/effects.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.denim.light.value}"
+          },
+          "name": "ColorEffectFocusOutline",
+          "attributes": {
+            "category": "color",
+            "type": "effect",
+            "item": "focus",
+            "subitem": "outline"
+          },
+          "path": [
+            "color",
+            "effect",
+            "focus",
+            "outline"
+          ]
+        },
+        "buffer": {
+          "value": "#ffffff",
+          "filePath": "assets/tokens/color/effects.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.surface.bg.value}"
+          },
+          "name": "ColorEffectFocusBuffer",
+          "attributes": {
+            "category": "color",
+            "type": "effect",
+            "item": "focus",
+            "subitem": "buffer"
+          },
+          "path": [
+            "color",
+            "effect",
+            "focus",
+            "buffer"
+          ]
+        }
+      },
+      "shadow": {
+        "1": {
+          "value": "#222222",
+          "darkValue": "#000000",
+          "filePath": "assets/tokens/color/effects.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.transparent.black.200.value}",
+            "darkValue": "{color.palette.transparent.white.200.value}"
+          },
+          "name": "ColorEffectShadow1",
+          "attributes": {
+            "category": "color",
+            "type": "effect",
+            "item": "shadow",
+            "subitem": "1"
+          },
+          "path": [
+            "color",
+            "effect",
+            "shadow",
+            "1"
+          ]
+        },
+        "2": {
+          "value": "#222222",
+          "darkValue": "#000000",
+          "filePath": "assets/tokens/color/effects.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.transparent.black.300.value}",
+            "darkValue": "{color.palette.transparent.white.300.value}"
+          },
+          "name": "ColorEffectShadow2",
+          "attributes": {
+            "category": "color",
+            "type": "effect",
+            "item": "shadow",
+            "subitem": "2"
+          },
+          "path": [
+            "color",
+            "effect",
+            "shadow",
+            "2"
+          ]
+        }
+      }
+    },
+    "surface": {
+      "bg": {
+        "value": "#ffffff",
+        "darkValue": "#222222",
+        "filePath": "assets/tokens/color/surfaces.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.palette.greyscale.000.value}",
+          "darkValue": "{color.palette.greyscale.900.value}"
+        },
+        "name": "ColorSurfaceBg",
+        "attributes": {
+          "category": "color",
+          "type": "surface",
+          "item": "bg"
+        },
+        "path": [
+          "color",
+          "surface",
+          "bg"
+        ]
+      },
+      "fg": {
+        "value": "#222222",
+        "darkValue": "#ffffff",
+        "filePath": "assets/tokens/color/surfaces.json",
+        "isSource": true,
+        "original": {
+          "value": "{color.palette.greyscale.900.value}",
+          "darkValue": "{color.palette.greyscale.000.value}"
+        },
+        "name": "ColorSurfaceFg",
+        "attributes": {
+          "category": "color",
+          "type": "surface",
+          "item": "fg"
+        },
+        "path": [
+          "color",
+          "surface",
+          "fg"
+        ]
+      },
+      "panel": {
+        "bg": {
+          "value": "#ffffff",
+          "darkValue": "#222222",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.greyscale.000.value}",
+            "darkValue": "{color.palette.greyscale.900.value}"
+          },
+          "name": "ColorSurfacePanelBg",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "panel",
+            "subitem": "bg"
+          },
+          "path": [
+            "color",
+            "surface",
+            "panel",
+            "bg"
+          ]
+        },
+        "fg": {
+          "value": "#222222",
+          "darkValue": "#ffffff",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.greyscale.900.value}",
+            "darkValue": "{color.palette.greyscale.000.value}"
+          },
+          "name": "ColorSurfacePanelFg",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "panel",
+            "subitem": "fg"
+          },
+          "path": [
+            "color",
+            "surface",
+            "panel",
+            "fg"
+          ]
+        }
+      },
+      "critical": {
+        "fg": {
+          "value": "#ffffff",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.greyscale.000.value}"
+          },
+          "name": "ColorSurfaceCriticalFg",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "critical",
+            "subitem": "fg"
+          },
+          "path": [
+            "color",
+            "surface",
+            "critical",
+            "fg"
+          ]
+        },
+        "bg": {
+          "value": "#a61a2e",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.brick.base.value}"
+          },
+          "name": "ColorSurfaceCriticalBg",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "critical",
+            "subitem": "bg"
+          },
+          "path": [
+            "color",
+            "surface",
+            "critical",
+            "bg"
+          ]
+        }
+      },
+      "success": {
+        "fg": {
+          "value": "#ffffff",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.greyscale.000.value}"
+          },
+          "name": "ColorSurfaceSuccessFg",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "success",
+            "subitem": "fg"
+          },
+          "path": [
+            "color",
+            "surface",
+            "success",
+            "fg"
+          ]
+        },
+        "bg": {
+          "value": "#2f466c",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.denim.base.value}"
+          },
+          "name": "ColorSurfaceSuccessBg",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "success",
+            "subitem": "bg"
+          },
+          "path": [
+            "color",
+            "surface",
+            "success",
+            "bg"
+          ]
+        }
+      },
+      "warning": {
+        "fg": {
+          "value": "#222222",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.greyscale.900.value}"
+          },
+          "name": "ColorSurfaceWarningFg",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "warning",
+            "subitem": "fg"
+          },
+          "path": [
+            "color",
+            "surface",
+            "warning",
+            "fg"
+          ]
+        },
+        "bg": {
+          "value": "#fdebd2",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.beeswax.tint.value}"
+          },
+          "name": "ColorSurfaceWarningBg",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "warning",
+            "subitem": "bg"
+          },
+          "path": [
+            "color",
+            "surface",
+            "warning",
+            "bg"
+          ]
+        }
+      },
+      "informational": {
+        "fg": {
+          "value": "#222222",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.greyscale.900.value}"
+          },
+          "name": "ColorSurfaceInformationalFg",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "informational",
+            "subitem": "fg"
+          },
+          "path": [
+            "color",
+            "surface",
+            "informational",
+            "fg"
+          ]
+        },
+        "bg": {
+          "value": "#d7e6f5",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.denim.tint.value}"
+          },
+          "name": "ColorSurfaceInformationalBg",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "informational",
+            "subitem": "bg"
+          },
+          "path": [
+            "color",
+            "surface",
+            "informational",
+            "bg"
+          ]
+        }
+      },
+      "input": {
+        "fg": {
+          "value": "#222222",
+          "darkValue": "#ffffff",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.greyscale.900.value}",
+            "darkValue": "{color.palette.greyscale.000.value}"
+          },
+          "name": "ColorSurfaceInputFg",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "input",
+            "subitem": "fg"
+          },
+          "path": [
+            "color",
+            "surface",
+            "input",
+            "fg"
+          ]
+        },
+        "bg": {
+          "value": "#ffffff",
+          "darkValue": "#222222",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.greyscale.000.value}",
+            "darkValue": "{color.palette.greyscale.900.value}"
+          },
+          "name": "ColorSurfaceInputBg",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "input",
+            "subitem": "bg"
+          },
+          "path": [
+            "color",
+            "surface",
+            "input",
+            "bg"
+          ]
+        },
+        "border": {
+          "value": "#222222",
+          "darkValue": "#757575",
+          "filePath": "assets/tokens/color/surfaces.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.palette.transparent.black.200.value}",
+            "darkValue": "{color.palette.greyscale.600.value}"
+          },
+          "name": "ColorSurfaceInputBorder",
+          "attributes": {
+            "category": "color",
+            "type": "surface",
+            "item": "input",
+            "subitem": "border"
+          },
+          "path": [
+            "color",
+            "surface",
+            "input",
+            "border"
+          ]
+        },
+        "hover": {
+          "fg": {
+            "value": "#222222",
+            "darkValue": "#ffffff",
+            "filePath": "assets/tokens/color/surfaces.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.greyscale.900.value}",
+              "darkValue": "{color.palette.greyscale.000.value}"
+            },
+            "name": "ColorSurfaceInputHoverFg",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "input",
+              "subitem": "hover",
+              "state": "fg"
+            },
+            "path": [
+              "color",
+              "surface",
+              "input",
+              "hover",
+              "fg"
+            ]
+          },
+          "bg": {
+            "value": "#ffffff",
+            "darkValue": "#222222",
+            "filePath": "assets/tokens/color/surfaces.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.greyscale.000.value}",
+              "darkValue": "{color.palette.greyscale.900.value}"
+            },
+            "name": "ColorSurfaceInputHoverBg",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "input",
+              "subitem": "hover",
+              "state": "bg"
+            },
+            "path": [
+              "color",
+              "surface",
+              "input",
+              "hover",
+              "bg"
+            ]
+          },
+          "border": {
+            "value": "#222222",
+            "darkValue": "#eaeaea",
+            "filePath": "assets/tokens/color/surfaces.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.transparent.black.500.value}",
+              "darkValue": "{color.palette.greyscale.400.value}"
+            },
+            "name": "ColorSurfaceInputHoverBorder",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "input",
+              "subitem": "hover",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "surface",
+              "input",
+              "hover",
+              "border"
+            ]
+          }
+        },
+        "invalid": {
+          "fg": {
+            "value": "#222222",
+            "darkValue": "#ffffff",
+            "filePath": "assets/tokens/color/surfaces.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.greyscale.900.value}",
+              "darkValue": "{color.palette.greyscale.000.value}"
+            },
+            "name": "ColorSurfaceInputInvalidFg",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "input",
+              "subitem": "invalid",
+              "state": "fg"
+            },
+            "path": [
+              "color",
+              "surface",
+              "input",
+              "invalid",
+              "fg"
+            ]
+          },
+          "bg": {
+            "value": "#fddcd8",
+            "filePath": "assets/tokens/color/surfaces.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.brick.tint.value}"
+            },
+            "name": "ColorSurfaceInputInvalidBg",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "input",
+              "subitem": "invalid",
+              "state": "bg"
+            },
+            "path": [
+              "color",
+              "surface",
+              "input",
+              "invalid",
+              "bg"
+            ]
+          },
+          "border": {
+            "value": "#a61a2e",
+            "filePath": "assets/tokens/color/surfaces.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.brick.base.value}"
+            },
+            "name": "ColorSurfaceInputInvalidBorder",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "input",
+              "subitem": "invalid",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "surface",
+              "input",
+              "invalid",
+              "border"
+            ]
+          },
+          "hover": {
+            "fg": {
+              "value": "#222222",
+              "darkValue": "#ffffff",
+              "filePath": "assets/tokens/color/surfaces.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.greyscale.900.value}",
+                "darkValue": "{color.palette.greyscale.000.value}"
+              },
+              "name": "ColorSurfaceInputInvalidHoverFg",
+              "attributes": {
+                "category": "color",
+                "type": "surface",
+                "item": "input",
+                "subitem": "invalid",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "surface",
+                "input",
+                "invalid",
+                "hover",
+                "fg"
+              ]
+            },
+            "bg": {
+              "value": "#fddcd8",
+              "filePath": "assets/tokens/color/surfaces.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.brick.tint.value}"
+              },
+              "name": "ColorSurfaceInputInvalidHoverBg",
+              "attributes": {
+                "category": "color",
+                "type": "surface",
+                "item": "input",
+                "subitem": "invalid",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "surface",
+                "input",
+                "invalid",
+                "hover",
+                "bg"
+              ]
+            },
+            "border": {
+              "value": "#a61a2e",
+              "filePath": "assets/tokens/color/surfaces.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.brick.base.value}"
+              },
+              "name": "ColorSurfaceInputInvalidHoverBorder",
+              "attributes": {
+                "category": "color",
+                "type": "surface",
+                "item": "input",
+                "subitem": "invalid",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "surface",
+                "input",
+                "invalid",
+                "hover",
+                "border"
+              ]
+            }
+          }
+        },
+        "disabled": {
+          "fg": {
+            "value": "#222222",
+            "darkValue": "#ffffff",
+            "filePath": "assets/tokens/color/surfaces.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.greyscale.900.value}",
+              "darkValue": "{color.palette.greyscale.000.value}"
+            },
+            "name": "ColorSurfaceInputDisabledFg",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "input",
+              "subitem": "disabled",
+              "state": "fg"
+            },
+            "path": [
+              "color",
+              "surface",
+              "input",
+              "disabled",
+              "fg"
+            ]
+          },
+          "bg": {
+            "value": "#eaeaea",
+            "darkValue": "#757575",
+            "filePath": "assets/tokens/color/surfaces.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.greyscale.400.value}",
+              "darkValue": "{color.palette.greyscale.600.value}"
+            },
+            "name": "ColorSurfaceInputDisabledBg",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "input",
+              "subitem": "disabled",
+              "state": "bg"
+            },
+            "path": [
+              "color",
+              "surface",
+              "input",
+              "disabled",
+              "bg"
+            ]
+          },
+          "border": {
+            "value": "#757575",
+            "darkValue": "#eaeaea",
+            "filePath": "assets/tokens/color/surfaces.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.greyscale.600.value}",
+              "darkValue": "{color.palette.greyscale.400.value}"
+            },
+            "name": "ColorSurfaceInputDisabledBorder",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "input",
+              "subitem": "disabled",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "surface",
+              "input",
+              "disabled",
+              "border"
+            ]
+          },
+          "hover": {
+            "fg": {
+              "value": "#222222",
+              "darkValue": "#ffffff",
+              "filePath": "assets/tokens/color/surfaces.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.greyscale.900.value}",
+                "darkValue": "{color.palette.greyscale.000.value}"
+              },
+              "name": "ColorSurfaceInputDisabledHoverFg",
+              "attributes": {
+                "category": "color",
+                "type": "surface",
+                "item": "input",
+                "subitem": "disabled",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "surface",
+                "input",
+                "disabled",
+                "hover",
+                "fg"
+              ]
+            },
+            "bg": {
+              "value": "#eaeaea",
+              "darkValue": "#757575",
+              "filePath": "assets/tokens/color/surfaces.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.greyscale.400.value}",
+                "darkValue": "{color.palette.greyscale.600.value}"
+              },
+              "name": "ColorSurfaceInputDisabledHoverBg",
+              "attributes": {
+                "category": "color",
+                "type": "surface",
+                "item": "input",
+                "subitem": "disabled",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "surface",
+                "input",
+                "disabled",
+                "hover",
+                "bg"
+              ]
+            },
+            "border": {
+              "value": "#757575",
+              "darkValue": "#eaeaea",
+              "filePath": "assets/tokens/color/surfaces.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.greyscale.600.value}",
+                "darkValue": "{color.palette.greyscale.400.value}"
+              },
+              "name": "ColorSurfaceInputDisabledHoverBorder",
+              "attributes": {
+                "category": "color",
+                "type": "surface",
+                "item": "input",
+                "subitem": "disabled",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "surface",
+                "input",
+                "disabled",
+                "hover",
+                "border"
+              ]
+            }
+          }
+        }
+      },
+      "action": {
+        "primary": {
+          "fg": {
+            "value": "#ffffff",
+            "darkValue": "#222222",
+            "filePath": "assets/tokens/color/surfaces.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.greyscale.000.value}",
+              "darkValue": "{color.palette.greyscale.900.value}"
+            },
+            "name": "ColorSurfaceActionPrimaryFg",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "action",
+              "subitem": "primary",
+              "state": "fg"
+            },
+            "path": [
+              "color",
+              "surface",
+              "action",
+              "primary",
+              "fg"
+            ]
+          },
+          "bg": {
+            "value": "#222222",
+            "darkValue": "#ffffff",
+            "filePath": "assets/tokens/color/surfaces.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.greyscale.900.value}",
+              "darkValue": "{color.palette.greyscale.000.value}"
+            },
+            "name": "ColorSurfaceActionPrimaryBg",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "action",
+              "subitem": "primary",
+              "state": "bg"
+            },
+            "path": [
+              "color",
+              "surface",
+              "action",
+              "primary",
+              "bg"
+            ]
+          },
+          "border": {
+            "value": "#222222",
+            "darkValue": "#ffffff",
+            "filePath": "assets/tokens/color/surfaces.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.palette.greyscale.900.value}",
+              "darkValue": "{color.palette.greyscale.000.value}"
+            },
+            "name": "ColorSurfaceActionPrimaryBorder",
+            "attributes": {
+              "category": "color",
+              "type": "surface",
+              "item": "action",
+              "subitem": "primary",
+              "state": "border"
+            },
+            "path": [
+              "color",
+              "surface",
+              "action",
+              "primary",
+              "border"
+            ]
+          },
+          "hover": {
+            "fg": {
+              "value": "#ffffff",
+              "darkValue": "#222222",
+              "filePath": "assets/tokens/color/surfaces.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.greyscale.000.value}",
+                "darkValue": "{color.palette.greyscale.900.value}"
+              },
+              "name": "ColorSurfaceActionPrimaryHoverFg",
+              "attributes": {
+                "category": "color",
+                "type": "surface",
+                "item": "action",
+                "subitem": "primary",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "surface",
+                "action",
+                "primary",
+                "hover",
+                "fg"
+              ]
+            },
+            "bg": {
+              "value": "#2f2f2f",
+              "darkValue": "#f9f9f9",
+              "filePath": "assets/tokens/color/surfaces.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.greyscale.800.value}",
+                "darkValue": "{color.palette.greyscale.100.value}"
+              },
+              "name": "ColorSurfaceActionPrimaryHoverBg",
+              "attributes": {
+                "category": "color",
+                "type": "surface",
+                "item": "action",
+                "subitem": "primary",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "surface",
+                "action",
+                "primary",
+                "hover",
+                "bg"
+              ]
+            },
+            "border": {
+              "value": "#2f2f2f",
+              "darkValue": "#f9f9f9",
+              "filePath": "assets/tokens/color/surfaces.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.greyscale.800.value}",
+                "darkValue": "{color.palette.greyscale.100.value}"
+              },
+              "name": "ColorSurfaceActionPrimaryHoverBorder",
+              "attributes": {
+                "category": "color",
+                "type": "surface",
+                "item": "action",
+                "subitem": "primary",
+                "state": "hover"
+              },
+              "path": [
+                "color",
+                "surface",
+                "action",
+                "primary",
+                "hover",
+                "border"
+              ]
+            }
+          },
+          "disabled": {
+            "fg": {
+              "value": "#ffffff",
+              "darkValue": "#222222",
+              "filePath": "assets/tokens/color/surfaces.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.greyscale.000.value}",
+                "darkValue": "{color.palette.greyscale.900.value}"
+              },
+              "name": "ColorSurfaceActionPrimaryDisabledFg",
+              "attributes": {
+                "category": "color",
+                "type": "surface",
+                "item": "action",
+                "subitem": "primary",
+                "state": "disabled"
+              },
+              "path": [
+                "color",
+                "surface",
+                "action",
+                "primary",
+                "disabled",
+                "fg"
+              ]
+            },
+            "bg": {
+              "value": "#222222",
+              "darkValue": "#595959",
+              "filePath": "assets/tokens/color/surfaces.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.transparent.black.500.value}",
+                "darkValue": "{color.palette.greyscale.700.value}"
+              },
+              "name": "ColorSurfaceActionPrimaryDisabledBg",
+              "attributes": {
+                "category": "color",
+                "type": "surface",
+                "item": "action",
+                "subitem": "primary",
+                "state": "disabled"
+              },
+              "path": [
+                "color",
+                "surface",
+                "action",
+                "primary",
+                "disabled",
+                "bg"
+              ]
+            },
+            "border": {
+              "value": "#222222",
+              "darkValue": "#595959",
+              "filePath": "assets/tokens/color/surfaces.json",
+              "isSource": true,
+              "original": {
+                "value": "{color.palette.transparent.black.500.value}",
+                "darkValue": "{color.palette.greyscale.700.value}"
+              },
+              "name": "ColorSurfaceActionPrimaryDisabledBorder",
+              "attributes": {
+                "category": "color",
+                "type": "surface",
+                "item": "action",
+                "subitem": "primary",
+                "state": "disabled"
+              },
+              "path": [
+                "color",
+                "surface",
+                "action",
+                "primary",
+                "disabled",
+                "border"
+              ]
+            },
+            "hover": {
+              "fg": {
+                "value": "#ffffff",
+                "darkValue": "#222222",
+                "filePath": "assets/tokens/color/surfaces.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.greyscale.000.value}",
+                  "darkValue": "{color.palette.greyscale.900.value}"
+                },
+                "name": "ColorSurfaceActionPrimaryDisabledHoverFg",
+                "attributes": {
+                  "category": "color",
+                  "type": "surface",
+                  "item": "action",
+                  "subitem": "primary",
+                  "state": "disabled"
+                },
+                "path": [
+                  "color",
+                  "surface",
+                  "action",
+                  "primary",
+                  "disabled",
+                  "hover",
+                  "fg"
+                ]
+              },
+              "bg": {
+                "value": "#222222",
+                "darkValue": "#595959",
+                "filePath": "assets/tokens/color/surfaces.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.transparent.black.500.value}",
+                  "darkValue": "{color.palette.greyscale.700.value}"
+                },
+                "name": "ColorSurfaceActionPrimaryDisabledHoverBg",
+                "attributes": {
+                  "category": "color",
+                  "type": "surface",
+                  "item": "action",
+                  "subitem": "primary",
+                  "state": "disabled"
+                },
+                "path": [
+                  "color",
+                  "surface",
+                  "action",
+                  "primary",
+                  "disabled",
+                  "hover",
+                  "bg"
+                ]
+              },
+              "border": {
+                "value": "#222222",
+                "darkValue": "#595959",
+                "filePath": "assets/tokens/color/surfaces.json",
+                "isSource": true,
+                "original": {
+                  "value": "{color.palette.transparent.black.500.value}",
+                  "darkValue": "{color.palette.greyscale.700.value}"
+                },
+                "name": "ColorSurfaceActionPrimaryDisabledHoverBorder",
+                "attributes": {
+                  "category": "color",
+                  "type": "surface",
+                  "item": "action",
+                  "subitem": "primary",
+                  "state": "disabled"
+                },
+                "path": [
+                  "color",
+                  "surface",
+                  "action",
+                  "primary",
+                  "disabled",
+                  "hover",
+                  "border"
+                ]
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "effect": {
+    "outline": {
+      "focus": {
+        "color": {
+          "value": "#4d6bc6",
+          "filePath": "assets/tokens/effect/outlines.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.effect.focus.outline.value}"
+          },
+          "name": "EffectOutlineFocusColor",
+          "attributes": {
+            "category": "effect",
+            "type": "outline",
+            "item": "focus",
+            "subitem": "color"
+          },
+          "path": [
+            "effect",
+            "outline",
+            "focus",
+            "color"
+          ]
+        },
+        "width": {
+          "value": "2px",
+          "filePath": "assets/tokens/effect/outlines.json",
+          "isSource": true,
+          "original": {
+            "value": "{shape.border.width.2.value}"
+          },
+          "name": "EffectOutlineFocusWidth",
+          "attributes": {
+            "category": "effect",
+            "type": "outline",
+            "item": "focus",
+            "subitem": "width"
+          },
+          "path": [
+            "effect",
+            "outline",
+            "focus",
+            "width"
+          ]
+        },
+        "buffer": {
+          "color": {
+            "value": "#ffffff",
+            "filePath": "assets/tokens/effect/outlines.json",
+            "isSource": true,
+            "original": {
+              "value": "{color.effect.focus.buffer.value}"
+            },
+            "name": "EffectOutlineFocusBufferColor",
+            "attributes": {
+              "category": "effect",
+              "type": "outline",
+              "item": "focus",
+              "subitem": "buffer",
+              "state": "color"
+            },
+            "path": [
+              "effect",
+              "outline",
+              "focus",
+              "buffer",
+              "color"
+            ]
+          },
+          "width": {
+            "value": "2px",
+            "filePath": "assets/tokens/effect/outlines.json",
+            "isSource": true,
+            "original": {
+              "value": "{shape.border.width.2.value}"
+            },
+            "name": "EffectOutlineFocusBufferWidth",
+            "attributes": {
+              "category": "effect",
+              "type": "outline",
+              "item": "focus",
+              "subitem": "buffer",
+              "state": "width"
+            },
+            "path": [
+              "effect",
+              "outline",
+              "focus",
+              "buffer",
+              "width"
+            ]
+          }
+        }
+      }
+    },
+    "shadow": {
+      "100": {
+        "x": {
+          "value": "0px",
+          "filePath": "assets/tokens/effect/shadows.json",
+          "isSource": true,
+          "original": {
+            "value": "0px"
+          },
+          "name": "EffectShadow100X",
+          "attributes": {
+            "category": "effect",
+            "type": "shadow",
+            "item": "100",
+            "subitem": "x"
+          },
+          "path": [
+            "effect",
+            "shadow",
+            "100",
+            "x"
+          ]
+        },
+        "y": {
+          "value": "4px",
+          "filePath": "assets/tokens/effect/shadows.json",
+          "isSource": true,
+          "original": {
+            "value": "4px"
+          },
+          "name": "EffectShadow100Y",
+          "attributes": {
+            "category": "effect",
+            "type": "shadow",
+            "item": "100",
+            "subitem": "y"
+          },
+          "path": [
+            "effect",
+            "shadow",
+            "100",
+            "y"
+          ]
+        },
+        "border-radius": {
+          "value": "20px",
+          "filePath": "assets/tokens/effect/shadows.json",
+          "isSource": true,
+          "original": {
+            "value": "20px"
+          },
+          "name": "EffectShadow100BorderRadius",
+          "attributes": {
+            "category": "effect",
+            "type": "shadow",
+            "item": "100",
+            "subitem": "border-radius"
+          },
+          "path": [
+            "effect",
+            "shadow",
+            "100",
+            "border-radius"
+          ]
+        },
+        "spread": {
+          "value": "0px",
+          "filePath": "assets/tokens/effect/shadows.json",
+          "isSource": true,
+          "original": {
+            "value": "0px"
+          },
+          "name": "EffectShadow100Spread",
+          "attributes": {
+            "category": "effect",
+            "type": "shadow",
+            "item": "100",
+            "subitem": "spread"
+          },
+          "path": [
+            "effect",
+            "shadow",
+            "100",
+            "spread"
+          ]
+        },
+        "color": {
+          "value": "#222222",
+          "filePath": "assets/tokens/effect/shadows.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.effect.shadow.1.value}"
+          },
+          "name": "EffectShadow100Color",
+          "attributes": {
+            "category": "effect",
+            "type": "shadow",
+            "item": "100",
+            "subitem": "color"
+          },
+          "path": [
+            "effect",
+            "shadow",
+            "100",
+            "color"
+          ]
+        }
+      },
+      "200": {
+        "x": {
+          "value": "0px",
+          "filePath": "assets/tokens/effect/shadows.json",
+          "isSource": true,
+          "original": {
+            "value": "0px"
+          },
+          "name": "EffectShadow200X",
+          "attributes": {
+            "category": "effect",
+            "type": "shadow",
+            "item": "200",
+            "subitem": "x"
+          },
+          "path": [
+            "effect",
+            "shadow",
+            "200",
+            "x"
+          ]
+        },
+        "y": {
+          "value": "6px",
+          "filePath": "assets/tokens/effect/shadows.json",
+          "isSource": true,
+          "original": {
+            "value": "6px"
+          },
+          "name": "EffectShadow200Y",
+          "attributes": {
+            "category": "effect",
+            "type": "shadow",
+            "item": "200",
+            "subitem": "y"
+          },
+          "path": [
+            "effect",
+            "shadow",
+            "200",
+            "y"
+          ]
+        },
+        "border-radius": {
+          "value": "36px",
+          "filePath": "assets/tokens/effect/shadows.json",
+          "isSource": true,
+          "original": {
+            "value": "36px"
+          },
+          "name": "EffectShadow200BorderRadius",
+          "attributes": {
+            "category": "effect",
+            "type": "shadow",
+            "item": "200",
+            "subitem": "border-radius"
+          },
+          "path": [
+            "effect",
+            "shadow",
+            "200",
+            "border-radius"
+          ]
+        },
+        "spread": {
+          "value": "0px",
+          "filePath": "assets/tokens/effect/shadows.json",
+          "isSource": true,
+          "original": {
+            "value": "0px"
+          },
+          "name": "EffectShadow200Spread",
+          "attributes": {
+            "category": "effect",
+            "type": "shadow",
+            "item": "200",
+            "subitem": "spread"
+          },
+          "path": [
+            "effect",
+            "shadow",
+            "200",
+            "spread"
+          ]
+        },
+        "color": {
+          "value": "#222222",
+          "filePath": "assets/tokens/effect/shadows.json",
+          "isSource": true,
+          "original": {
+            "value": "{color.effect.shadow.2.value}"
+          },
+          "name": "EffectShadow200Color",
+          "attributes": {
+            "category": "effect",
+            "type": "shadow",
+            "item": "200",
+            "subitem": "color"
+          },
+          "path": [
+            "effect",
+            "shadow",
+            "200",
+            "color"
+          ]
+        }
+      }
+    }
+  },
+  "font": {
+    "palette": {
+      "family": {
+        "guardian": {
+          "value": "\"Comic Sans MS\"",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "\"Comic Sans MS\""
+          },
+          "name": "FontPaletteFamilyGuardian",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "family",
+            "subitem": "guardian"
+          },
+          "path": [
+            "font",
+            "palette",
+            "family",
+            "guardian"
+          ]
+        },
+        "guardian-fallback": {
+          "1": {
+            "value": "\"Comic Sans\"",
+            "filePath": "assets/tokens/font/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "\"Comic Sans\""
+            },
+            "name": "FontPaletteFamilyGuardianFallback1",
+            "attributes": {
+              "category": "font",
+              "type": "palette",
+              "item": "family",
+              "subitem": "guardian-fallback",
+              "state": "1"
+            },
+            "path": [
+              "font",
+              "palette",
+              "family",
+              "guardian-fallback",
+              "1"
+            ]
+          },
+          "2": {
+            "value": "cursive",
+            "filePath": "assets/tokens/font/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "cursive"
+            },
+            "name": "FontPaletteFamilyGuardianFallback2",
+            "attributes": {
+              "category": "font",
+              "type": "palette",
+              "item": "family",
+              "subitem": "guardian-fallback",
+              "state": "2"
+            },
+            "path": [
+              "font",
+              "palette",
+              "family",
+              "guardian-fallback",
+              "2"
+            ]
+          }
+        },
+        "graphik": {
+          "value": "Arial",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "Arial"
+          },
+          "name": "FontPaletteFamilyGraphik",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "family",
+            "subitem": "graphik"
+          },
+          "path": [
+            "font",
+            "palette",
+            "family",
+            "graphik"
+          ]
+        },
+        "graphik-fallback": {
+          "1": {
+            "value": "Helvetica",
+            "filePath": "assets/tokens/font/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "Helvetica"
+            },
+            "name": "FontPaletteFamilyGraphikFallback1",
+            "attributes": {
+              "category": "font",
+              "type": "palette",
+              "item": "family",
+              "subitem": "graphik-fallback",
+              "state": "1"
+            },
+            "path": [
+              "font",
+              "palette",
+              "family",
+              "graphik-fallback",
+              "1"
+            ]
+          },
+          "2": {
+            "value": "sans-serif",
+            "filePath": "assets/tokens/font/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "sans-serif"
+            },
+            "name": "FontPaletteFamilyGraphikFallback2",
+            "attributes": {
+              "category": "font",
+              "type": "palette",
+              "item": "family",
+              "subitem": "graphik-fallback",
+              "state": "2"
+            },
+            "path": [
+              "font",
+              "palette",
+              "family",
+              "graphik-fallback",
+              "2"
+            ]
+          }
+        }
+      },
+      "weight": {
+        "300": {
+          "value": "300",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "300"
+          },
+          "name": "FontPaletteWeight300",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "weight",
+            "subitem": "300"
+          },
+          "path": [
+            "font",
+            "palette",
+            "weight",
+            "300"
+          ]
+        },
+        "400": {
+          "value": "400",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "400"
+          },
+          "name": "FontPaletteWeight400",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "weight",
+            "subitem": "400"
+          },
+          "path": [
+            "font",
+            "palette",
+            "weight",
+            "400"
+          ]
+        },
+        "500": {
+          "value": "500",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "500"
+          },
+          "name": "FontPaletteWeight500",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "weight",
+            "subitem": "500"
+          },
+          "path": [
+            "font",
+            "palette",
+            "weight",
+            "500"
+          ]
+        },
+        "700": {
+          "value": "700",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "700"
+          },
+          "name": "FontPaletteWeight700",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "weight",
+            "subitem": "700"
+          },
+          "path": [
+            "font",
+            "palette",
+            "weight",
+            "700"
+          ]
+        }
+      },
+      "size": {
+        "100": {
+          "value": "12px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "12px"
+          },
+          "name": "FontPaletteSize100",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "size",
+            "subitem": "100"
+          },
+          "path": [
+            "font",
+            "palette",
+            "size",
+            "100"
+          ]
+        },
+        "150": {
+          "value": "13px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "13px"
+          },
+          "name": "FontPaletteSize150",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "size",
+            "subitem": "150"
+          },
+          "path": [
+            "font",
+            "palette",
+            "size",
+            "150"
+          ]
+        },
+        "200": {
+          "value": "16px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "16px"
+          },
+          "name": "FontPaletteSize200",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "size",
+            "subitem": "200"
+          },
+          "path": [
+            "font",
+            "palette",
+            "size",
+            "200"
+          ]
+        },
+        "250": {
+          "value": "20px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "20px"
+          },
+          "name": "FontPaletteSize250",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "size",
+            "subitem": "250"
+          },
+          "path": [
+            "font",
+            "palette",
+            "size",
+            "250"
+          ]
+        },
+        "300": {
+          "value": "24px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "24px"
+          },
+          "name": "FontPaletteSize300",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "size",
+            "subitem": "300"
+          },
+          "path": [
+            "font",
+            "palette",
+            "size",
+            "300"
+          ]
+        },
+        "350": {
+          "value": "26px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "26px"
+          },
+          "name": "FontPaletteSize350",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "size",
+            "subitem": "350"
+          },
+          "path": [
+            "font",
+            "palette",
+            "size",
+            "350"
+          ]
+        },
+        "400": {
+          "value": "28px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "28px"
+          },
+          "name": "FontPaletteSize400",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "size",
+            "subitem": "400"
+          },
+          "path": [
+            "font",
+            "palette",
+            "size",
+            "400"
+          ]
+        },
+        "450": {
+          "value": "32px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "32px"
+          },
+          "name": "FontPaletteSize450",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "size",
+            "subitem": "450"
+          },
+          "path": [
+            "font",
+            "palette",
+            "size",
+            "450"
+          ]
+        },
+        "500": {
+          "value": "36px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "36px"
+          },
+          "name": "FontPaletteSize500",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "size",
+            "subitem": "500"
+          },
+          "path": [
+            "font",
+            "palette",
+            "size",
+            "500"
+          ]
+        },
+        "600": {
+          "value": "44px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "44px"
+          },
+          "name": "FontPaletteSize600",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "size",
+            "subitem": "600"
+          },
+          "path": [
+            "font",
+            "palette",
+            "size",
+            "600"
+          ]
+        },
+        "700": {
+          "value": "52px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "52px"
+          },
+          "name": "FontPaletteSize700",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "size",
+            "subitem": "700"
+          },
+          "path": [
+            "font",
+            "palette",
+            "size",
+            "700"
+          ]
+        },
+        "900": {
+          "value": "72px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "72px"
+          },
+          "name": "FontPaletteSize900",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "size",
+            "subitem": "900"
+          },
+          "path": [
+            "font",
+            "palette",
+            "size",
+            "900"
+          ]
+        }
+      },
+      "line-height": {
+        "100": {
+          "value": "14px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "14px"
+          },
+          "name": "FontPaletteLineHeight100",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "100"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "100"
+          ]
+        },
+        "150": {
+          "value": "16px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "16px"
+          },
+          "name": "FontPaletteLineHeight150",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "150"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "150"
+          ]
+        },
+        "200": {
+          "value": "18px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "18px"
+          },
+          "name": "FontPaletteLineHeight200",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "200"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "200"
+          ]
+        },
+        "250": {
+          "value": "20px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "20px"
+          },
+          "name": "FontPaletteLineHeight250",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "250"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "250"
+          ]
+        },
+        "300": {
+          "value": "24px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "24px"
+          },
+          "name": "FontPaletteLineHeight300",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "300"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "300"
+          ]
+        },
+        "350": {
+          "value": "28px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "28px"
+          },
+          "name": "FontPaletteLineHeight350",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "350"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "350"
+          ]
+        },
+        "400": {
+          "value": "32px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "32px"
+          },
+          "name": "FontPaletteLineHeight400",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "400"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "400"
+          ]
+        },
+        "450": {
+          "value": "36px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "36px"
+          },
+          "name": "FontPaletteLineHeight450",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "450"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "450"
+          ]
+        },
+        "500": {
+          "value": "42px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "42px"
+          },
+          "name": "FontPaletteLineHeight500",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "500"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "500"
+          ]
+        },
+        "550": {
+          "value": "48px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "48px"
+          },
+          "name": "FontPaletteLineHeight550",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "550"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "550"
+          ]
+        },
+        "600": {
+          "value": "52px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "52px"
+          },
+          "name": "FontPaletteLineHeight600",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "600"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "600"
+          ]
+        },
+        "700": {
+          "value": "56px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "56px"
+          },
+          "name": "FontPaletteLineHeight700",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "700"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "700"
+          ]
+        },
+        "900": {
+          "value": "72px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "72px"
+          },
+          "name": "FontPaletteLineHeight900",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "line-height",
+            "subitem": "900"
+          },
+          "path": [
+            "font",
+            "palette",
+            "line-height",
+            "900"
+          ]
+        }
+      },
+      "letter-spacing": {
+        "200": {
+          "value": "0.1px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "0.1px"
+          },
+          "name": "FontPaletteLetterSpacing200",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "letter-spacing",
+            "subitem": "200"
+          },
+          "path": [
+            "font",
+            "palette",
+            "letter-spacing",
+            "200"
+          ]
+        },
+        "500": {
+          "value": "0.35px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "0.35px"
+          },
+          "name": "FontPaletteLetterSpacing500",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "letter-spacing",
+            "subitem": "500"
+          },
+          "path": [
+            "font",
+            "palette",
+            "letter-spacing",
+            "500"
+          ]
+        },
+        "800": {
+          "value": "0.5px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "0.5px"
+          },
+          "name": "FontPaletteLetterSpacing800",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "letter-spacing",
+            "subitem": "800"
+          },
+          "path": [
+            "font",
+            "palette",
+            "letter-spacing",
+            "800"
+          ]
+        },
+        "000": {
+          "value": "0px",
+          "filePath": "assets/tokens/font/_palette.json",
+          "isSource": true,
+          "original": {
+            "value": "0px"
+          },
+          "name": "FontPaletteLetterSpacing000",
+          "attributes": {
+            "category": "font",
+            "type": "palette",
+            "item": "letter-spacing",
+            "subitem": "000"
+          },
+          "path": [
+            "font",
+            "palette",
+            "letter-spacing",
+            "000"
+          ]
+        }
+      }
+    },
+    "body": {
+      "family": {
+        "value": "Arial",
+        "filePath": "assets/tokens/font/body.json",
+        "isSource": true,
+        "original": {
+          "value": "{font.palette.family.graphik}"
+        },
+        "name": "FontBodyFamily",
+        "attributes": {
+          "category": "font",
+          "type": "body",
+          "item": "family"
+        },
+        "path": [
+          "font",
+          "body",
+          "family"
+        ]
+      },
+      "family-fallback": {
+        "1": {
+          "value": "Helvetica",
+          "filePath": "assets/tokens/font/body.json",
+          "isSource": true,
+          "original": {
+            "value": "{font.palette.family.graphik-fallback.1}"
+          },
+          "name": "FontBodyFamilyFallback1",
+          "attributes": {
+            "category": "font",
+            "type": "body",
+            "item": "family-fallback",
+            "subitem": "1"
+          },
+          "path": [
+            "font",
+            "body",
+            "family-fallback",
+            "1"
+          ]
+        },
+        "2": {
+          "value": "sans-serif",
+          "filePath": "assets/tokens/font/body.json",
+          "isSource": true,
+          "original": {
+            "value": "{font.palette.family.graphik-fallback.2}"
+          },
+          "name": "FontBodyFamilyFallback2",
+          "attributes": {
+            "category": "font",
+            "type": "body",
+            "item": "family-fallback",
+            "subitem": "2"
+          },
+          "path": [
+            "font",
+            "body",
+            "family-fallback",
+            "2"
+          ]
+        }
+      },
+      "weight": {
+        "value": "400",
+        "filePath": "assets/tokens/font/body.json",
+        "isSource": true,
+        "original": {
+          "value": "{font.palette.weight.400}"
+        },
+        "name": "FontBodyWeight",
+        "attributes": {
+          "category": "font",
+          "type": "body",
+          "item": "weight"
+        },
+        "path": [
+          "font",
+          "body",
+          "weight"
+        ]
+      },
+      "size": {
+        "value": "16px",
+        "filePath": "assets/tokens/font/body.json",
+        "isSource": true,
+        "original": {
+          "value": "{font.palette.size.200}"
+        },
+        "name": "FontBodySize",
+        "attributes": {
+          "category": "font",
+          "type": "body",
+          "item": "size"
+        },
+        "path": [
+          "font",
+          "body",
+          "size"
+        ]
+      },
+      "letter-spacing": {
+        "value": "0px",
+        "filePath": "assets/tokens/font/body.json",
+        "isSource": true,
+        "original": {
+          "value": "{font.palette.letter-spacing.000}"
+        },
+        "name": "FontBodyLetterSpacing",
+        "attributes": {
+          "category": "font",
+          "type": "body",
+          "item": "letter-spacing"
+        },
+        "path": [
+          "font",
+          "body",
+          "letter-spacing"
+        ]
+      },
+      "line-height": {
+        "value": "28px",
+        "filePath": "assets/tokens/font/body.json",
+        "isSource": true,
+        "original": {
+          "value": "{font.palette.line-height.350}"
+        },
+        "name": "FontBodyLineHeight",
+        "attributes": {
+          "category": "font",
+          "type": "body",
+          "item": "line-height"
+        },
+        "path": [
+          "font",
+          "body",
+          "line-height"
+        ]
+      }
+    },
+    "heading": {
+      "family": {
+        "value": "\"Comic Sans MS\"",
+        "filePath": "assets/tokens/font/headings.json",
+        "isSource": true,
+        "original": {
+          "value": "{font.palette.family.guardian}"
+        },
+        "name": "FontHeadingFamily",
+        "attributes": {
+          "category": "font",
+          "type": "heading",
+          "item": "family"
+        },
+        "path": [
+          "font",
+          "heading",
+          "family"
+        ]
+      },
+      "family-fallback": {
+        "1": {
+          "value": "\"Comic Sans\"",
+          "filePath": "assets/tokens/font/headings.json",
+          "isSource": true,
+          "original": {
+            "value": "{font.palette.family.guardian-fallback.1}"
+          },
+          "name": "FontHeadingFamilyFallback1",
+          "attributes": {
+            "category": "font",
+            "type": "heading",
+            "item": "family-fallback",
+            "subitem": "1"
+          },
+          "path": [
+            "font",
+            "heading",
+            "family-fallback",
+            "1"
+          ]
+        },
+        "2": {
+          "value": "cursive",
+          "filePath": "assets/tokens/font/headings.json",
+          "isSource": true,
+          "original": {
+            "value": "{font.palette.family.guardian-fallback.2}"
+          },
+          "name": "FontHeadingFamilyFallback2",
+          "attributes": {
+            "category": "font",
+            "type": "heading",
+            "item": "family-fallback",
+            "subitem": "2"
+          },
+          "path": [
+            "font",
+            "heading",
+            "family-fallback",
+            "2"
+          ]
+        }
+      },
+      "weight": {
+        "value": "300",
+        "filePath": "assets/tokens/font/headings.json",
+        "isSource": true,
+        "original": {
+          "value": "{font.palette.weight.300}"
+        },
+        "name": "FontHeadingWeight",
+        "attributes": {
+          "category": "font",
+          "type": "heading",
+          "item": "weight"
+        },
+        "path": [
+          "font",
+          "heading",
+          "weight"
+        ]
+      },
+      "size": {
+        "value": "32px",
+        "filePath": "assets/tokens/font/headings.json",
+        "isSource": true,
+        "original": {
+          "value": "{font.palette.size.450}"
+        },
+        "name": "FontHeadingSize",
+        "attributes": {
+          "category": "font",
+          "type": "heading",
+          "item": "size"
+        },
+        "path": [
+          "font",
+          "heading",
+          "size"
+        ]
+      },
+      "letter-spacing": {
+        "value": "0.5px",
+        "filePath": "assets/tokens/font/headings.json",
+        "isSource": true,
+        "original": {
+          "value": "{font.palette.letter-spacing.800}"
+        },
+        "name": "FontHeadingLetterSpacing",
+        "attributes": {
+          "category": "font",
+          "type": "heading",
+          "item": "letter-spacing"
+        },
+        "path": [
+          "font",
+          "heading",
+          "letter-spacing"
+        ]
+      },
+      "line-height": {
+        "value": "36px",
+        "filePath": "assets/tokens/font/headings.json",
+        "isSource": true,
+        "original": {
+          "value": "{font.palette.line-height.450}"
+        },
+        "name": "FontHeadingLineHeight",
+        "attributes": {
+          "category": "font",
+          "type": "heading",
+          "item": "line-height"
+        },
+        "path": [
+          "font",
+          "heading",
+          "line-height"
+        ]
+      }
+    }
+  },
+  "shape": {
+    "palette": {
+      "stroke": {
+        "weight": {
+          "100": {
+            "value": "1px",
+            "filePath": "assets/tokens/shape/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "1px"
+            },
+            "name": "ShapePaletteStrokeWeight100",
+            "attributes": {
+              "category": "shape",
+              "type": "palette",
+              "item": "stroke",
+              "subitem": "weight",
+              "state": "100"
+            },
+            "path": [
+              "shape",
+              "palette",
+              "stroke",
+              "weight",
+              "100"
+            ]
+          },
+          "200": {
+            "value": "2px",
+            "filePath": "assets/tokens/shape/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "2px"
+            },
+            "name": "ShapePaletteStrokeWeight200",
+            "attributes": {
+              "category": "shape",
+              "type": "palette",
+              "item": "stroke",
+              "subitem": "weight",
+              "state": "200"
+            },
+            "path": [
+              "shape",
+              "palette",
+              "stroke",
+              "weight",
+              "200"
+            ]
+          }
+        },
+        "corner-radius": {
+          "100": {
+            "value": "6px",
+            "filePath": "assets/tokens/shape/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "{sizing.palette.base-unit}"
+            },
+            "name": "ShapePaletteStrokeCornerRadius100",
+            "attributes": {
+              "category": "shape",
+              "type": "palette",
+              "item": "stroke",
+              "subitem": "corner-radius",
+              "state": "100"
+            },
+            "path": [
+              "shape",
+              "palette",
+              "stroke",
+              "corner-radius",
+              "100"
+            ]
+          },
+          "200": {
+            "value": "calc(6px * 2)",
+            "filePath": "assets/tokens/shape/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "calc({sizing.palette.base-unit} * 2)"
+            },
+            "name": "ShapePaletteStrokeCornerRadius200",
+            "attributes": {
+              "category": "shape",
+              "type": "palette",
+              "item": "stroke",
+              "subitem": "corner-radius",
+              "state": "200"
+            },
+            "path": [
+              "shape",
+              "palette",
+              "stroke",
+              "corner-radius",
+              "200"
+            ]
+          },
+          "300": {
+            "value": "calc(6px * 3)",
+            "filePath": "assets/tokens/shape/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "calc({sizing.palette.base-unit} * 3)"
+            },
+            "name": "ShapePaletteStrokeCornerRadius300",
+            "attributes": {
+              "category": "shape",
+              "type": "palette",
+              "item": "stroke",
+              "subitem": "corner-radius",
+              "state": "300"
+            },
+            "path": [
+              "shape",
+              "palette",
+              "stroke",
+              "corner-radius",
+              "300"
+            ]
+          },
+          "050": {
+            "value": "calc(6px / 2)",
+            "filePath": "assets/tokens/shape/_palette.json",
+            "isSource": true,
+            "original": {
+              "value": "calc({sizing.palette.base-unit} / 2)"
+            },
+            "name": "ShapePaletteStrokeCornerRadius050",
+            "attributes": {
+              "category": "shape",
+              "type": "palette",
+              "item": "stroke",
+              "subitem": "corner-radius",
+              "state": "050"
+            },
+            "path": [
+              "shape",
+              "palette",
+              "stroke",
+              "corner-radius",
+              "050"
+            ]
+          }
+        }
+      }
+    },
+    "border": {
+      "width": {
+        "1": {
+          "value": "1px",
+          "filePath": "assets/tokens/shape/borders.json",
+          "isSource": true,
+          "original": {
+            "value": "{shape.palette.stroke.weight.100.value}"
+          },
+          "name": "ShapeBorderWidth1",
+          "attributes": {
+            "category": "shape",
+            "type": "border",
+            "item": "width",
+            "subitem": "1"
+          },
+          "path": [
+            "shape",
+            "border",
+            "width",
+            "1"
+          ]
+        },
+        "2": {
+          "value": "2px",
+          "filePath": "assets/tokens/shape/borders.json",
+          "isSource": true,
+          "original": {
+            "value": "{shape.palette.stroke.weight.200.value}"
+          },
+          "name": "ShapeBorderWidth2",
+          "attributes": {
+            "category": "shape",
+            "type": "border",
+            "item": "width",
+            "subitem": "2"
+          },
+          "path": [
+            "shape",
+            "border",
+            "width",
+            "2"
+          ]
+        }
+      },
+      "radius": {
+        "1": {
+          "value": "6px",
+          "filePath": "assets/tokens/shape/borders.json",
+          "isSource": true,
+          "original": {
+            "value": "{shape.palette.stroke.corner-radius.100.value}"
+          },
+          "name": "ShapeBorderRadius1",
+          "attributes": {
+            "category": "shape",
+            "type": "border",
+            "item": "radius",
+            "subitem": "1"
+          },
+          "path": [
+            "shape",
+            "border",
+            "radius",
+            "1"
+          ]
+        },
+        "2": {
+          "value": "calc(6px * 2)",
+          "filePath": "assets/tokens/shape/borders.json",
+          "isSource": true,
+          "original": {
+            "value": "{shape.palette.stroke.corner-radius.200.value}"
+          },
+          "name": "ShapeBorderRadius2",
+          "attributes": {
+            "category": "shape",
+            "type": "border",
+            "item": "radius",
+            "subitem": "2"
+          },
+          "path": [
+            "shape",
+            "border",
+            "radius",
+            "2"
+          ]
+        },
+        "3": {
+          "value": "calc(6px * 3)",
+          "filePath": "assets/tokens/shape/borders.json",
+          "isSource": true,
+          "original": {
+            "value": "{shape.palette.stroke.corner-radius.300.value}"
+          },
+          "name": "ShapeBorderRadius3",
+          "attributes": {
+            "category": "shape",
+            "type": "border",
+            "item": "radius",
+            "subitem": "3"
+          },
+          "path": [
+            "shape",
+            "border",
+            "radius",
+            "3"
+          ]
+        }
+      }
+    },
+    "button": {
+      "min-height": {
+        "base": {
+          "value": "calc(6px * 8)",
+          "filePath": "assets/tokens/shape/buttons.json",
+          "isSource": true,
+          "original": {
+            "value": "calc({sizing.palette.base-unit} * 8)"
+          },
+          "name": "ShapeButtonMinHeightBase",
+          "attributes": {
+            "category": "shape",
+            "type": "button",
+            "item": "min-height",
+            "subitem": "base"
+          },
+          "path": [
+            "shape",
+            "button",
+            "min-height",
+            "base"
+          ]
+        },
+        "smaller": {
+          "value": "calc(6px * 6)",
+          "filePath": "assets/tokens/shape/buttons.json",
+          "isSource": true,
+          "original": {
+            "value": "calc({sizing.palette.base-unit} * 6)"
+          },
+          "name": "ShapeButtonMinHeightSmaller",
+          "attributes": {
+            "category": "shape",
+            "type": "button",
+            "item": "min-height",
+            "subitem": "smaller"
+          },
+          "path": [
+            "shape",
+            "button",
+            "min-height",
+            "smaller"
+          ]
+        }
+      },
+      "border": {
+        "width": {
+          "value": "2px",
+          "filePath": "assets/tokens/shape/buttons.json",
+          "isSource": true,
+          "original": {
+            "value": "{shape.palette.stroke.weight.200.value}"
+          },
+          "name": "ShapeButtonBorderWidth",
+          "attributes": {
+            "category": "shape",
+            "type": "button",
+            "item": "border",
+            "subitem": "width"
+          },
+          "path": [
+            "shape",
+            "button",
+            "border",
+            "width"
+          ]
+        },
+        "radius": {
+          "base": {
+            "value": "calc(6px * 4)",
+            "filePath": "assets/tokens/shape/buttons.json",
+            "isSource": true,
+            "original": {
+              "value": "calc({sizing.palette.base-unit} * 4)"
+            },
+            "name": "ShapeButtonBorderRadiusBase",
+            "attributes": {
+              "category": "shape",
+              "type": "button",
+              "item": "border",
+              "subitem": "radius",
+              "state": "base"
+            },
+            "path": [
+              "shape",
+              "button",
+              "border",
+              "radius",
+              "base"
+            ]
+          },
+          "smaller": {
+            "value": "calc(6px * 3)",
+            "filePath": "assets/tokens/shape/buttons.json",
+            "isSource": true,
+            "original": {
+              "value": "calc({sizing.palette.base-unit} * 3)"
+            },
+            "name": "ShapeButtonBorderRadiusSmaller",
+            "attributes": {
+              "category": "shape",
+              "type": "button",
+              "item": "border",
+              "subitem": "radius",
+              "state": "smaller"
+            },
+            "path": [
+              "shape",
+              "button",
+              "border",
+              "radius",
+              "smaller"
+            ]
+          }
+        }
+      }
+    },
+    "input": {
+      "min-height": {
+        "base": {
+          "value": "calc(6px * 8)",
+          "filePath": "assets/tokens/shape/inputs.json",
+          "isSource": true,
+          "original": {
+            "value": "calc({sizing.palette.base-unit} * 8)"
+          },
+          "name": "ShapeInputMinHeightBase",
+          "attributes": {
+            "category": "shape",
+            "type": "input",
+            "item": "min-height",
+            "subitem": "base"
+          },
+          "path": [
+            "shape",
+            "input",
+            "min-height",
+            "base"
+          ]
+        },
+        "smaller": {
+          "value": "calc(6px * 6)",
+          "filePath": "assets/tokens/shape/inputs.json",
+          "isSource": true,
+          "original": {
+            "value": "calc({sizing.palette.base-unit} * 6)"
+          },
+          "name": "ShapeInputMinHeightSmaller",
+          "attributes": {
+            "category": "shape",
+            "type": "input",
+            "item": "min-height",
+            "subitem": "smaller"
+          },
+          "path": [
+            "shape",
+            "input",
+            "min-height",
+            "smaller"
+          ]
+        }
+      },
+      "border": {
+        "width": {
+          "value": "1px",
+          "filePath": "assets/tokens/shape/inputs.json",
+          "isSource": true,
+          "original": {
+            "value": "{shape.palette.stroke.weight.100.value}"
+          },
+          "name": "ShapeInputBorderWidth",
+          "attributes": {
+            "category": "shape",
+            "type": "input",
+            "item": "border",
+            "subitem": "width"
+          },
+          "path": [
+            "shape",
+            "input",
+            "border",
+            "width"
+          ]
+        },
+        "radius": {
+          "base": {
+            "value": "6px",
+            "filePath": "assets/tokens/shape/inputs.json",
+            "isSource": true,
+            "original": {
+              "value": "{shape.palette.stroke.corner-radius.100.value}"
+            },
+            "name": "ShapeInputBorderRadiusBase",
+            "attributes": {
+              "category": "shape",
+              "type": "input",
+              "item": "border",
+              "subitem": "radius",
+              "state": "base"
+            },
+            "path": [
+              "shape",
+              "input",
+              "border",
+              "radius",
+              "base"
+            ]
+          },
+          "smaller": {
+            "value": "calc(6px / 2)",
+            "filePath": "assets/tokens/shape/inputs.json",
+            "isSource": true,
+            "original": {
+              "value": "{shape.palette.stroke.corner-radius.050.value}"
+            },
+            "name": "ShapeInputBorderRadiusSmaller",
+            "attributes": {
+              "category": "shape",
+              "type": "input",
+              "item": "border",
+              "subitem": "radius",
+              "state": "smaller"
+            },
+            "path": [
+              "shape",
+              "input",
+              "border",
+              "radius",
+              "smaller"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "sizing": {
+    "palette": {
+      "base-unit": {
+        "value": "6px",
+        "filePath": "assets/tokens/sizing/_palette.json",
+        "isSource": true,
+        "original": {
+          "value": "6px"
+        },
+        "name": "SizingPaletteBaseUnit",
+        "attributes": {
+          "category": "sizing",
+          "type": "palette",
+          "item": "base-unit"
+        },
+        "path": [
+          "sizing",
+          "palette",
+          "base-unit"
+        ]
+      }
+    }
+  }
+}

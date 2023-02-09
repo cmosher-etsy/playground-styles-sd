@@ -14,7 +14,7 @@ module.exports = {
     cssFormat: require("./formats/cssFormat")({ dataSelector: "" }),
     cssFormatDark: require("./formats/cssFormat")({ dataSelector: "[data-theme=dark]" }),
     scssFormat: require("./formats/scssFormat")(),
-    flutterFormat: require("./formats/flutterFormat")({ className: "Collage" }),
+    flutterFormat: require("./formats/flutterMaterialColorFormat")({ className: "Collage" }),
     flutterMaterialColorFormat:
       require("./formats/flutterMaterialColorFormat")({ className: "CollageColor" }),
     flutterMaterialColorFormatDark:

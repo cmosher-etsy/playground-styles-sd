@@ -1,0 +1,47 @@
+/**
+ * Do not edit directly
+ * Generated on Thu, 09 Feb 2023 13:13:45 GMT
+ */
+
+[data-theme=dark]:root {
+  --color-palette-beeswax-dark: #db8b00;
+  --color-palette-beeswax-tint: #e2d3bd;
+  --color-palette-brick-dark: #731f2b;
+  --color-palette-brick-light: #f27878;
+  --color-palette-brick-tint: #ca9e99;
+  --color-palette-denim-light: #829cee;
+  --color-palette-denim-tint: #b5c6d8;
+  --color-palette-denim-base: #426194;
+  --color-surface-action-primary-disabled-hover-border: var(--color-palette-greyscale-700);
+  --color-surface-action-primary-disabled-hover-bg: var(--color-palette-greyscale-700);
+  --color-surface-action-primary-disabled-hover-fg: var(--color-palette-greyscale-900);
+  --color-surface-action-primary-disabled-border: var(--color-palette-greyscale-700);
+  --color-surface-action-primary-disabled-bg: var(--color-palette-greyscale-700);
+  --color-surface-action-primary-disabled-fg: var(--color-palette-greyscale-900);
+  --color-surface-action-primary-hover-border: var(--color-palette-greyscale-100);
+  --color-surface-action-primary-hover-bg: var(--color-palette-greyscale-100);
+  --color-surface-action-primary-hover-fg: var(--color-palette-greyscale-900);
+  --color-surface-action-primary-border: var(--color-palette-greyscale-000);
+  --color-surface-action-primary-bg: var(--color-palette-greyscale-000);
+  --color-surface-action-primary-fg: var(--color-palette-greyscale-900);
+  --color-surface-input-disabled-hover-border: var(--color-palette-greyscale-400);
+  --color-surface-input-disabled-hover-bg: var(--color-palette-greyscale-600);
+  --color-surface-input-disabled-hover-fg: var(--color-palette-greyscale-000);
+  --color-surface-input-disabled-border: var(--color-palette-greyscale-400);
+  --color-surface-input-disabled-bg: var(--color-palette-greyscale-600);
+  --color-surface-input-disabled-fg: var(--color-palette-greyscale-000);
+  --color-surface-input-invalid-hover-fg: var(--color-palette-greyscale-000);
+  --color-surface-input-invalid-fg: var(--color-palette-greyscale-000);
+  --color-surface-input-hover-border: var(--color-palette-greyscale-400);
+  --color-surface-input-hover-bg: var(--color-palette-greyscale-900);
+  --color-surface-input-hover-fg: var(--color-palette-greyscale-000);
+  --color-surface-input-border: var(--color-palette-greyscale-600);
+  --color-surface-input-bg: var(--color-palette-greyscale-900);
+  --color-surface-input-fg: var(--color-palette-greyscale-000);
+  --color-surface-panel-fg: var(--color-palette-greyscale-000);
+  --color-surface-panel-bg: var(--color-palette-greyscale-900);
+  --color-surface-fg: var(--color-palette-greyscale-000);
+  --color-surface-bg: var(--color-palette-greyscale-900);
+  --color-effect-shadow-2: var(--color-palette-transparent-white-300);
+  --color-effect-shadow-1: var(--color-palette-transparent-white-200);
+}
